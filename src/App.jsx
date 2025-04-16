@@ -1,13 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { useTheme } from "./features/theme/themeUtils";
+import { useLanguage } from "./features/i18n/useLanguage";
 
 export default function App() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
+  const { changeLanguage } = useLanguage();
   const { theme, toggleTheme } = useTheme();
-
-  function changeLanguage(lang) {
-    i18n.changeLanguage(lang);
-  }
 
   return (
     <>
