@@ -12,10 +12,13 @@
   --secondary-hover: #ffffff;
   --tertiary-hover: #106483;
 
-  --transparent-black: #0000006b;
+  --transparent-black: #00000061;
   --transparent-white: rgba(255, 255, 255, 0.1);
 
   --light-text-color: #ffffff;
+  --dark-text-color: #a8a8a8;
+
+  --audit-card-bg: rgba(0, 0, 0, 0.331);
 }
 
 @font-face {

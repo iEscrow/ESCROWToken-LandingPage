@@ -7,6 +7,23 @@
       "description": "Exchange cryptocurrency with people all over the world, known or unkown, fastly, easily and with the utmost security through our decentralized escrow.",
       "presale": "Presale",
       "whitepaper": "Whitepaper"
+    },
+    "Security": {
+      "title": "Security <0>Audits</0>",
+      "slogan": "One security audit is what is expected. <0>Two security audits are better.</0>",
+      "description": "Being a project based on security, we understand the importance of security audits and the crucial and irreplaceable value that they bring to the table, and that´s why we made two security audits.",
+      "audit1": {
+        "title": "Certik <0>Audit</0>",
+        "tokenSecurity": "Token Security",
+        "description": "Being a project based on security, we understand the importance of security audits and the crucial.",
+        "cta": "See audit"
+      },
+      "audit2": {
+        "title": "Certik <0>Audit</0>",
+        "tokenSecurity": "Token Security",
+        "description": "Being a project based on security, we understand the importance of security audits and the crucial.",
+        "cta": "See audit"
+      }
     }
   },
   "Footer": {}
