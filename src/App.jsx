@@ -1,21 +1,18 @@
-import { useTranslation } from "react-i18next";
-import { useTheme } from "./features/theme/themeUtils";
-import { useLanguage } from "./features/i18n/useLanguage";
+import { Route, Routes } from "react-router-dom";
+// import { useTranslation } from "react-i18next";
+// import { useTheme } from "./features/theme/themeUtils";
+// import { useLanguage } from "./features/i18n/useLanguage";
+import HomePage from "./pages/home/HomePage";
 
 export default function App() {
-  const { t } = useTranslation();
-  const { changeLanguage } = useLanguage();
-  const { theme, toggleTheme } = useTheme();
+  // const { t } = useTranslation();
+  // const { changeLanguage } = useLanguage();
+  // const { theme, toggleTheme } = useTheme();
 
   return (
-    <>
-      <h1>{t("Welcome")}</h1>
-      <button onClick={() => changeLanguage("en")}>English</button>
-      <button onClick={() => changeLanguage("es")}>Spanish</button>
-      <h2>Current theme: {theme}</h2>
-      <button onClick={toggleTheme} aria-label="Change theme">
-        Change theme
-      </button>
-    </>
+    <Routes>
+      {/* Pages */}
+      <Route path="/" element={<HomePage />} />
+    </Routes>
   );
 }

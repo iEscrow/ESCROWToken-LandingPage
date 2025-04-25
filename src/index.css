@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+
+  --primary-color: #30c2e2;
+  --secondary-color: #e020f1;
 }
 @font-face {
   font-family: "Poppins";
@@ -46,4 +49,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
 }
