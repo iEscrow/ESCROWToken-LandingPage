@@ -1,3 +1,13 @@
 {
-  "Welcome": "Hola Mundo!"
+  "Navbar": {},
+  "Home": {
+    "Banner": {
+      "metaTitle": "Intercambio de criptomonedas P2P con escrow - iEscrow",
+      "title": "El token de utilidad del <0>Intercambio de criptomonedas P2P híbrido CEX/DEX iEscrow</0>",
+      "description": "Intercambia criptomonedas con personas de todo el mundo, conocidas o desconocidas, de forma rápida, sencilla y con la máxima seguridad a través de nuestro escrow descentralizado.",
+      "presale": "Preventa",
+      "whitepaper": "Whitepaper"
+    }
+  },
+  "Footer": {}
 }

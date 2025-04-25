@@ -6,7 +6,18 @@
 
   --primary-color: #30c2e2;
   --secondary-color: #e020f1;
+  --tertiary-color: #1b80a4;
+  --white: #ffffff;
+
+  --secondary-hover: #ffffff;
+  --tertiary-hover: #106483;
+
+  --transparent-black: #0000006b;
+  --transparent-white: rgba(255, 255, 255, 0.1);
+
+  --light-text-color: #ffffff;
 }
+
 @font-face {
   font-family: "Poppins";
   src: url("./assets/fonts/Poppins-Bold.woff2") format("woff2");

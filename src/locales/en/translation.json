@@ -1,3 +1,13 @@
 {
-  "Welcome": "Hello World!"
+  "Navbar": {},
+  "Home": {
+    "Banner": {
+      "metaTitle": "P2P Crypto Escrow Exchange - iEscrow",
+      "title": "The utility token of the <0>iEscrow P2P Hybrid CEX/DEX Crypto Exchange</0>",
+      "description": "Exchange cryptocurrency with people all over the world, known or unkown, fastly, easily and with the utmost security through our decentralized escrow.",
+      "presale": "Presale",
+      "whitepaper": "Whitepaper"
+    }
+  },
+  "Footer": {}
 }

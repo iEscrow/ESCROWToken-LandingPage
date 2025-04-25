@@ -1,18 +1,29 @@
-import React from "react";
+import styles from "./HomeBanner.module.css";
 import GradientText from "../../../ui/gradientText/GradientText";
+import animatedImg from "../../../../assets/images/banner/animatedIcon.png";
+import CustomButton from "../../../ui/buttons/customButton/CustomButton";
+import { Trans } from "react-i18next";
 
-export default function HomeBanner() {
+export default function HomeBanner({ t }) {
   return (
-    <section>
-      <h1>
-        The utility token of the{" "}
-        <GradientText>iEscrow P2P Hybrid CEX/DEX Crypto Exchange</GradientText>
-      </h1>
-      <p>
-        Exchange cryptocurrency with people all over the world, known or unkown,
-        fastly, easily and with the utmost security through our decentralized
-        escrow.
-      </p>
+    <section className={styles.banner}>
+      <div className={styles.content}>
+        <h1>
+          <Trans i18nKey="Home.Banner.title">
+            <GradientText></GradientText>
+          </Trans>
+        </h1>
+        <p>{t("Home.Banner.description")}</p>
+        <div className={styles.buttons}>
+          <CustomButton variant="secondary">
+            {t("Home.Banner.presale")}
+          </CustomButton>
+          <CustomButton variant="primary">
+            {t("Home.Banner.whitepaper")}
+          </CustomButton>
+        </div>
+      </div>
+      <img src={animatedImg} alt="animated logo" />
     </section>
   );
 }
