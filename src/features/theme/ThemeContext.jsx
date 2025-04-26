@@ -2,6 +2,14 @@ import React, { useEffect, useMemo, useCallback } from "react";
 import { ThemeContext } from "./themeUtils";
 import useLocalStorage from "../../lib/hooks/useLocalStorage";
 
+/**
+ * Theme context provider component.
+ *
+ * @function ThemeProvider
+ * @param {Object} props - Component props.
+ * @param {React.ReactNode} props.children - Child components to be wrapped by the provider.
+ * @returns {JSX.Element} A provider component that supplies theme context.
+ */
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useLocalStorage("theme", "dark");
 
