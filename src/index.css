@@ -9,8 +9,10 @@
   --tertiary-color: #1b80a4;
   --white: #ffffff;
 
-  --secondary-hover: #ffffff;
+  --primary-hover: #1a849c;
+  --secondary-hover: #9819a3;
   --tertiary-hover: #106483;
+  --white-hover: #ffffff;
 
   --transparent-black: #00000061;
   --transparent-white: rgba(255, 255, 255, 0.1);

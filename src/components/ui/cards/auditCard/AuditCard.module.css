@@ -14,6 +14,7 @@
   .logo {
     position: relative;
     transform: translateY(-4rem) scale(1.2);
+    user-select: none;
     span {
       position: absolute;
       top: 70%;
@@ -60,15 +61,25 @@
 .auditCard.primary {
   border: 2px solid var(--primary-color);
 
-  .content a {
-    background-color: var(--primary-color);
+  .content {
+    a {
+      background-color: var(--primary-color);
+    }
+    a:hover {
+      background-color: var(--primary-hover);
+    }
   }
 }
 .auditCard.secondary {
   border: 2px solid var(--secondary-color);
 
-  .content a {
-    background-color: var(--secondary-color);
+  .content {
+    a {
+      background-color: var(--secondary-color);
+    }
+    a:hover {
+      background-color: var(--secondary-hover);
+    }
   }
 }
 
