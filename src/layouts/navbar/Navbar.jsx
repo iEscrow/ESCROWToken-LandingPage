@@ -5,6 +5,7 @@ import Hamburger from "../../components/ui/buttons/hamburger/Hamburger";
 import { NavLink } from "react-router-dom";
 import ThemeSelector from "../../features/theme/components/themeSelector/ThemeSelector";
 import logo from "../../assets/images/logo.svg";
+import LangSelector from "../../features/i18n/components/langSelector/LangSelector";
 
 /**
  * Main responsive navbar component
@@ -82,6 +83,9 @@ export default function Navbar() {
             <NavLink to="/" onClick={handleClose} className={getNavLinkClass}>
               item 3
             </NavLink>
+          </li>
+          <li className={styles.navLink} role="menuitem">
+            <LangSelector />
           </li>
           <li className={styles.navLink} role="menuitem">
             <ThemeSelector />

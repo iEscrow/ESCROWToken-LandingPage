@@ -110,3 +110,8 @@ body {
   background-color: var(--background);
   color: var(--light-text-color);
 }
+
+ul,
+ol {
+  list-style: none;
+}
