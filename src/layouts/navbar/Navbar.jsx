@@ -3,6 +3,9 @@ import { useState, useCallback, useRef, useEffect } from "react";
 // import { useTranslation } from "react-i18next";
 import Hamburger from "../../components/ui/buttons/hamburger/Hamburger";
 import { NavLink } from "react-router-dom";
+import ThemeSelector from "../../features/theme/components/themeSelector/ThemeSelector";
+import logo from "../../assets/images/logo.svg";
+
 /**
  * Main responsive navbar component
  *
@@ -51,22 +54,37 @@ export default function Navbar() {
   return (
     <header className={styles.header} role="navigation">
       <nav>
+        {/* Logo */}
+        <NavLink to="/" onClick={handleClose}>
+          <img src={logo} alt="iescrow logo" />
+        </NavLink>
+
+        {/* Hamburger menu */}
         <Hamburger
           handleToggle={handleToggle}
           toggle={toggle}
           aria-expanded={toggle}
         />
+
+        {/* Menu */}
         <ul className={styles.menu} role="menu">
           <li className={styles.navLink} role="menuitem">
             <NavLink to="/" onClick={handleClose} className={getNavLinkClass}>
               item 1
             </NavLink>
+          </li>
+          <li className={styles.navLink} role="menuitem">
             <NavLink to="/" onClick={handleClose} className={getNavLinkClass}>
               item 2
             </NavLink>
+          </li>
+          <li className={styles.navLink} role="menuitem">
             <NavLink to="/" onClick={handleClose} className={getNavLinkClass}>
               item 3
             </NavLink>
+          </li>
+          <li className={styles.navLink} role="menuitem">
+            <ThemeSelector />
           </li>
         </ul>
       </nav>
