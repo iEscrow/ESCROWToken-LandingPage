@@ -1,14 +1,16 @@
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/home/HomePage";
-// import { useTheme } from "./features/theme/themeUtils";
 
 export default function App() {
-  // const { theme, toggleTheme } = useTheme();
-
   return (
-    <Routes>
-      {/* Pages */}
-      <Route path="/" element={<HomePage />} />
-    </Routes>
+    <>
+      <Routes>
+        {/* Pages */}
+        <Route path="/" element={<HomePage />} />
+
+        {/* Error page */}
+        <Route path="*" element={<h1>Error page</h1>} />
+      </Routes>
+    </>
   );
 }
