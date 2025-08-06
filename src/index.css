@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-[data-theme="dark"] {
-}
-
-[data-theme="light"] {
-}
-
 @font-face {
   font-family: "Poppins";
   src: url("./assets/fonts/Poppins-Bold.woff2") format("woff2");
@@ -46,6 +40,47 @@
   font-display: swap;
 }
 
+:root {
+  --background: #ffffff;
+  --gradient-start: #30c2e2;
+  --gradient-end: #e020f1;
+
+  --primary-color: #1b80a4;
+
+  --text-primary: #000000;
+  --text-secondary: #4c4c4c;
+}
+[data-theme="dark"] {
+  --background: #000000;
+
+  --primary-color: #1b80a4;
+
+  --text-primary: #ffffff;
+  --text-secondary: #a8a8a8;
+}
+
+@theme {
+  --color-background: var(--background-color);
+
+  --color-primary: var(--primary-color);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+}
+
+.gradient-text {
+  background: linear-gradient(
+    to right,
+    var(--gradient-start),
+    var(--gradient-end)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--background);
 }

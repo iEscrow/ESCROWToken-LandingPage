@@ -1,4 +1,5 @@
 // import { useTranslation } from "react-i18next";
+import HomeBanner from "../sections/HomeBanner";
 
 export default function HomePage() {
   // const { t } = useTranslation();
@@ -8,7 +9,9 @@ export default function HomePage() {
       <title>Escrow Landing Page</title>
       <meta name="description" content="escrow landing page" />
 
-      <h1>Hola mundo</h1>
+      <main>
+        <HomeBanner />
+      </main>
     </>
   );
 }
