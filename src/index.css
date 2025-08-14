@@ -52,6 +52,8 @@
 }
 [data-theme="dark"] {
   --background: #000000;
+  --gradient-start: #30c2e2;
+  --gradient-end: #e020f1;
 
   --primary-color: #1b80a4;
 
@@ -60,20 +62,16 @@
 }
 
 @theme {
-  --color-background: var(--background-color);
+  --color-background: #000000;
 
-  --color-primary: var(--primary-color);
+  --color-primary: #1b80a4;
 
-  --color-text-primary: var(--text-primary);
-  --color-text-secondary: var(--text-secondary);
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a8a8a8;
 }
 
 .gradient-text {
-  background: linear-gradient(
-    to right,
-    var(--gradient-start),
-    var(--gradient-end)
-  );
+  background: linear-gradient(to right, #30c2e2, #e020f1);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
