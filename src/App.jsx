@@ -9,20 +9,10 @@ export default function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1200);
+    }, 1600);
 
     return () => clearTimeout(timer);
   }, []);
 
-  return (
-    <>
-      <Routes>
-        <Route path="/" element={isLoading ? <Loading /> : <HomePage />} />
-        {/* Pages */}
-
-        {/* Error page */}
-        <Route path="*" element={<h1>Error page</h1>} />
-      </Routes>
-    </>
-  );
+  return isLoading ? <Loading /> : <HomePage />;
 }
