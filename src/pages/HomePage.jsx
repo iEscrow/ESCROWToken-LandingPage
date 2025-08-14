@@ -1,8 +1,8 @@
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import HomeBanner from "../sections/HomeBanner";
 
 export default function HomePage() {
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>
@@ -10,7 +10,7 @@ export default function HomePage() {
       <meta name="description" content="escrow landing page" />
 
       <main>
-        <HomeBanner />
+        <HomeBanner t={t} />
       </main>
     </>
   );

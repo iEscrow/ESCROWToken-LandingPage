@@ -2,7 +2,7 @@ import bannerImg from "../assets/images/banner/banner_icon.png";
 import bannerBg from "../assets/images/banner/banner_bg.png";
 import { Trans } from "react-i18next";
 
-export default function HomeBanner() {
+export default function HomeBanner({ t }) {
   return (
     <section
       className="w-full h-screen text-text-primary"
@@ -21,22 +21,20 @@ export default function HomeBanner() {
             </Trans>
           </h1>
           <p className="text-text-secondary mt-8 text-sm max-w-[430px] md:text-lg md:max-w-[500px] lg:max-w-[600px]">
-            Exchange cryptocurrency with people all over the world, known or
-            unkown, fastly, easily and with the utmost security through our
-            decentralized escrow.
+            {t("Home.Banner.description")}
           </p>
           <div className="mt-10 flex flex-col w-full items-center gap-4 md:flex-row">
             <a
               href="#"
               className="w-full max-w-[300px] border-2 border-text-primary px-6 py-2 rounded-full uppercase text-center lg:max-w-[216px]"
             >
-              presale
+              {t("Home.Banner.presale")}
             </a>
             <a
               href="#"
               className="w-full max-w-[300px] border-2 border-primary bg-primary px-6 py-2 rounded-full uppercase text-center lg:max-w-[216px]"
             >
-              whitepaper
+              {t("Home.Banner.whitepaper")}
             </a>
           </div>
         </div>
