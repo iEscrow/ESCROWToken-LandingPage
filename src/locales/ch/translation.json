@@ -2,28 +2,24 @@
   "Navbar": {},
   "Home": {
     "Banner": {
-      "metaTitle": "P2P加密托管交易所 - iEscrow",
-      "title": "iEscrow P2P混合型CEX/DEX加密交易所的<0>实用代币</0>",
-      "description": "通过我们的去中心化托管服务，与全球各地的人（无论是熟人还是陌生人）快速、轻松且极其安全地交换加密货币。",
-      "presale": "预售",
-      "whitepaper": "白皮书"
+      "title": "The utility token of the <0>iEscrow P2P Hybrid CEX/DEX Crypto Exchange</0>",
+      "description": "Exchange cryptocurrency with people all over the world, known or unkown, fastly, easily and with the utmost security through our decentralized escrow.",
+      "presale": "Presale",
+      "whitepaper": "Whitepaper"
     },
-    "Security": {
-      "title": "Security <0>Audits</0>",
-      "slogan": "One security audit is what is expected. <0>Two security audits are better.</0>",
-      "description": "Being a project based on security, we understand the importance of security audits and the crucial and irreplaceable value that they bring to the table, and that´s why we made two security audits.",
-      "audit1": {
-        "title": "Certik <0>Audit</0>",
-        "tokenSecurity": "Token Security",
-        "description": "Being a project based on security, we understand the importance of security audits and the crucial.",
-        "cta": "See audit"
-      },
-      "audit2": {
-        "title": "Certik <0>Audit</0>",
-        "tokenSecurity": "Token Security",
-        "description": "Being a project based on security, we understand the importance of security audits and the crucial.",
-        "cta": "See audit"
+    "Presale": {
+      "title": "Presale starts in:",
+      "description": "Join iEscrow’s hybrid P2P revolution. $Escrow brings control, security, and freedom. Don’t miss out!",
+      "time": {
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Min",
+        "seconds": "Sec"
       }
+    },
+    "PriceAppreciation": {
+      "title": "Engineered for Sustained <0>Price Appreciation</0>",
+      "description": "Limited presale, deflationary mechanics, and strategic tokenomics drive value for early investors."
     }
   },
   "Footer": {}
