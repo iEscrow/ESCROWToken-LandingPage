@@ -2,11 +2,21 @@
   "Navbar": {},
   "Home": {
     "Banner": {
-      "metaTitle": "Intercambio de criptomonedas P2P con escrow - iEscrow",
-      "title": "El token de utilidad del <0>Intercambio de criptomonedas P2P híbrido CEX/DEX iEscrow</0>",
-      "description": "Intercambia criptomonedas con personas de todo el mundo, conocidas o desconocidas, de forma rápida, sencilla y con la máxima seguridad a través de nuestro escrow descentralizado.",
-      "presale": "Preventa",
+      "metaTitle": "P2P Crypto Escrow Exchange - iEscrow",
+      "title": "The utility token of the <0>iEscrow P2P Hybrid CEX/DEX Crypto Exchange</0>",
+      "description": "Exchange cryptocurrency with people all over the world, known or unkown, fastly, easily and with the utmost security through our decentralized escrow.",
+      "presale": "Presale",
       "whitepaper": "Whitepaper"
+    },
+    "Presale": {
+      "title": "Presale starts in:",
+      "description": "Join iEscrow’s hybrid P2P revolution. $Escrow brings control, security, and freedom. Don’t miss out!",
+      "time": {
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Min",
+        "seconds": "Sec"
+      }
     }
   },
   "Footer": {}

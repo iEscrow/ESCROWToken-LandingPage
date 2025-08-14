@@ -3,7 +3,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import Logo from "../assets/images/banner/banner_icon.png";
 
-const Loading = () => {
+export default function Loading() {
   const containerRef = useRef(null);
   const spinnerRef = useRef(null);
 
@@ -35,6 +35,4 @@ const Loading = () => {
       </div>
     </div>
   );
-};
-
-export default Loading;
+}

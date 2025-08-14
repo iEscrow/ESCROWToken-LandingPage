@@ -2,16 +2,8 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("./assets/fonts/Poppins-Bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("./assets/fonts/Poppins-Regular.woff2") format("woff2");
-  font-weight: normal;
+  src: url("./assets/fonts/Poppins-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
@@ -20,6 +12,14 @@
   font-family: "Poppins";
   src: url("./assets/fonts/Poppins-Light.woff2") format("woff2");
   font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -36,6 +36,14 @@
   font-family: "Poppins";
   src: url("./assets/fonts/Poppins-SemiBold.woff2") format("woff2");
   font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
@@ -76,6 +84,16 @@
   background-clip: text;
   color: transparent;
   display: inline-block;
+}
+.bg-black-gradient {
+  background: #000000;
+  background: linear-gradient(
+    99deg,
+    rgba(0, 0, 0, 1) 49%,
+    rgba(0, 0, 0, 0.83) 70%,
+    rgba(0, 0, 0, 0) 89%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 body {
