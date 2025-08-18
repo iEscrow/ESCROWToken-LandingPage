@@ -47,6 +47,23 @@
           "description": "$ESCROW is designed to deliver maximum value to holders. Its deflationary shares, token burns, locked staking, and limited presale, combined with strategic partnerships and powerful marketing, work together to fuel demand, drive positive price performance, and deliver outstanding returns."
         }
       }
+    },
+    "SecurityAudits": {
+      "title": "Security <0>Audits</0>",
+      "phrase": "One security audit is what is expected. <0>Two security audits are better.</0>",
+      "description": "Being a project based on security, we understand the importance of security audits and the crucial and irreplaceable value that they bring to the table, and that´s why we made two security audits.",
+      "card1": {
+        "label": "Token Security",
+        "title": "Certik <0>Audit</0>",
+        "description": "Being a project based on security, we understand the importance of security audits and the crucial.",
+        "cta": "See audit"
+      },
+      "card2": {
+        "label": "Token Security",
+        "title": "Certik <0>Audit</0>",
+        "description": "Being a project based on security, we understand the importance of security audits and the crucial.",
+        "cta": "See audit"
+      }
     }
   },
   "Footer": {}

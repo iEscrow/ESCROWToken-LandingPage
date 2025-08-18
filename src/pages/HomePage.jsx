@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import HomeBanner from "../sections/HomeBanner";
 import Presale from "../sections/Presale";
 import PriceAppreciation from "../sections/PriceAppreciation";
+import SecurityAudits from "../sections/SecurityAudits";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -15,6 +16,7 @@ export default function HomePage() {
         <HomeBanner t={t} />
         <Presale t={t} />
         <PriceAppreciation t={t} />
+        <SecurityAudits t={t} />
       </main>
     </>
   );
