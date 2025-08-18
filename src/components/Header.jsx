@@ -84,7 +84,7 @@ export default function Header() {
 
       <dialog
         ref={dialogRef}
-        className="bg-black z-50 h-screen w-full max-w-full lg:hidden"
+        className="bg-black z-50 h-screen max-h-none w-full max-w-full lg:hidden"
         id="mobile-menu"
         role="dialog"
         aria-modal="true"
