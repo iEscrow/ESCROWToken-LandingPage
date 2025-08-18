@@ -1,4 +1,6 @@
 import { Trans } from "react-i18next";
+import AppreciationCard from "../components/AppreciationCard";
+import FeeBurn from "../assets/images/cards/feeburn.png";
 
 export default function PriceAppreciation({ t }) {
   return (
@@ -11,6 +13,39 @@ export default function PriceAppreciation({ t }) {
       <p className="text-text-secondary mt-4 max-w-[400px] mx-auto lg:max-w-[520px]">
         {t("Home.PriceAppreciation.description")}
       </p>
+
+      <div className="flex flex-col gap-8 mt-10 lg:mt-32">
+        <AppreciationCard
+          label={t("Home.PriceAppreciation.cards.feeBurn.label")}
+          title={t("Home.PriceAppreciation.cards.feeBurn.title")}
+          description={t("Home.PriceAppreciation.cards.feeBurn.description")}
+          image={FeeBurn}
+        />
+        <AppreciationCard
+          label={t("Home.PriceAppreciation.cards.feeBurn.label")}
+          title={t("Home.PriceAppreciation.cards.feeBurn.title")}
+          description={t("Home.PriceAppreciation.cards.feeBurn.description")}
+          image={FeeBurn}
+        />
+        <AppreciationCard
+          label={t("Home.PriceAppreciation.cards.feeBurn.label")}
+          title={t("Home.PriceAppreciation.cards.feeBurn.title")}
+          description={t("Home.PriceAppreciation.cards.feeBurn.description")}
+          image={FeeBurn}
+        />
+        <AppreciationCard
+          label={t("Home.PriceAppreciation.cards.feeBurn.label")}
+          title={t("Home.PriceAppreciation.cards.feeBurn.title")}
+          description={t("Home.PriceAppreciation.cards.feeBurn.description")}
+          image={FeeBurn}
+        />
+        <AppreciationCard
+          label={t("Home.PriceAppreciation.cards.feeBurn.label")}
+          title={t("Home.PriceAppreciation.cards.feeBurn.title")}
+          description={t("Home.PriceAppreciation.cards.feeBurn.description")}
+          image={FeeBurn}
+        />
+      </div>
     </section>
   );
 }

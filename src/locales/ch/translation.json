@@ -19,7 +19,34 @@
     },
     "PriceAppreciation": {
       "title": "Engineered for Sustained <0>Price Appreciation</0>",
-      "description": "Limited presale, deflationary mechanics, and strategic tokenomics drive value for early investors."
+      "description": "Limited presale, deflationary mechanics, and strategic tokenomics drive value for early investors.",
+      "cards": {
+        "feeBurn": {
+          "label": "token burn",
+          "title": "25% fee burn <0>on iEscrow</0>",
+          "description": "With this type of staking holders tend to lock value for longer periods of time, resulting in better price action and earning more yield."
+        },
+        "locked": {
+          "label": "Value Preservation",
+          "title": "Locked <0>staking</0>",
+          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+        },
+        "deflationary": {
+          "label": "Scarcity of Shares",
+          "title": "Deflationary <0>shares</0>",
+          "description": "Upon ending a stake, the contract calculates a new price for shares, so making shorter repeated stakes can’t earn more yield than longer stakes. This makes the price of shares to always go up, benefiting early stakers."
+        },
+        "presale": {
+          "label": "OG Benefits",
+          "title": "Limited <0>presale</0>",
+          "description": "Only 10% of $ESCROW’s max supply is available during the presale. If you miss it, you'll have to buy on the open market, which increases buying pressure and pushes the price upward from day one."
+        },
+        "tokenomics": {
+          "label": "Value-Driven Strategy",
+          "title": "Top-tier tokenomics + <0>marketing strategy</0>",
+          "description": "$ESCROW is designed to deliver maximum value to holders. Its deflationary shares, token burns, locked staking, and limited presale, combined with strategic partnerships and powerful marketing, work together to fuel demand, drive positive price performance, and deliver outstanding returns."
+        }
+      }
     }
   },
   "Footer": {}

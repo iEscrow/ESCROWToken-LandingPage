@@ -74,6 +74,9 @@
 
   --color-primary: #1b80a4;
 
+  --color-card-bg: #3c3c3c;
+  --color-card-border: #333333;
+
   --color-text-primary: #ffffff;
   --color-text-secondary: #a8a8a8;
 }
