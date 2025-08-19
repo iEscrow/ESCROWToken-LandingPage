@@ -4,7 +4,7 @@ import cardBg from "../assets/images/cards/bg.png";
 export default function AppreciationCard({ label, title, description, image }) {
   return (
     <div
-      className="text-text-primary bg-card-bg p-8 rounded-2xl flex flex-col items-center justify-between md:flex-row md:p-10 lg:px-20 lg:h-[600px] lg:rounded-3xl bg-bottom bg-no-repeat md:bg-right"
+      className="text-text-primary bg-card-bg p-8 rounded-2xl flex flex-col items-center justify-between md:flex-row md:p-10 lg:px-20 lg:h-[600px] lg:rounded-3xl bg-bottom bg-no-repeat md:bg-right lg:w-full"
       style={{
         backgroundImage: `url(${cardBg})`,
       }}

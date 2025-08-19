@@ -18,11 +18,11 @@ export default function Presale({ t }) {
         </div>
 
         <div className="overflow-hidden w-full h-full flex items-start justify-center md:absolute md:right-0 md:top-0 md:-z-10 md:justify-end">
-          <div className="hidden absolute left-0 top-0 md:flex h-full w-[50%] bg-black-gradient"></div>
+          <div className="hidden absolute left-0 top-0 md:flex h-full w-[56%] bg-black-gradient"></div>
           <img
             src={Rocket}
             alt="rocket launcher video"
-            className="h-full w-full object-cover md:w-[80%]"
+            className="h-full w-full object-cover md:w-[70%]"
           />
         </div>
       </div>

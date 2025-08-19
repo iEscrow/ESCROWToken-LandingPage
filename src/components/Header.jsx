@@ -1,5 +1,6 @@
 import Logo from "../assets/images/logo.svg";
 import { useEffect, useRef, useState } from "react";
+import LangSelector from "../features/i18n/components/langSelector/LangSelector";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,12 +28,16 @@ export default function Header() {
   return (
     <header className="fixed z-50 top-0 left-0 w-full bg-black shadow-2xl text-text-secondary">
       <nav
-        className="mx-auto flex container items-center justify-between p-4"
+        className="mx-auto flex container items-center justify-between px-4 py-2 lg:py-4"
         aria-label="Global"
       >
         <div className="flex w-full justify-between items-center">
           <a href="#">
-            <img src={Logo} alt="iescrow logo" />
+            <img
+              src={Logo}
+              alt="iescrow logo"
+              className="w-20 md:w-24 lg:w-32"
+            />
           </a>
           <ul className="hidden lg:flex lg:items-center lg:justify-end lg:gap-x-12 lg:w-full">
             <li>
@@ -45,9 +50,12 @@ export default function Header() {
               <a href="#">item 3</a>
             </li>
             <li>
+              <LangSelector />
+            </li>
+            <li>
               <a
                 href="#"
-                className="w-full max-w-[300px] text-text-primary font-semibold border-2 border-primary bg-primary px-6 py-2 rounded-full uppercase text-center lg:max-w-[180px]"
+                className="w-full max-w-[300px] text-text-primary font-semibold border-2 border-primary bg-primary px-10 py-2 rounded-full uppercase text-center lg:max-w-[180px]"
               >
                 Presale
               </a>
@@ -132,6 +140,9 @@ export default function Header() {
               </li>
               <li onClick={closeMenu}>
                 <a href="#">item 3</a>
+              </li>
+              <li>
+                <LangSelector handleChange={closeMenu} />
               </li>
               <li onClick={closeMenu}>
                 <a

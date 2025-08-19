@@ -105,3 +105,13 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--background);
 }
+
+.panel {
+  position: relative;
+  will-change: transform;
+  margin-bottom: 0; /* Elimina espacio extra */
+}
+
+section {
+  overflow: hidden; /* Evita overflow visual */
+}

@@ -1,33 +1,36 @@
-import { useState } from "react";
-import styles from "./LangSelector.module.css";
-import { useRef } from "react";
+import { useState, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import useClickOutside from "../../../../lib/hooks/useClickOutside";
 import LanguageList from "../../../../lib/data/languages.json";
-import { useTranslation } from "react-i18next";
 
-export default function LangSelector() {
-  const [show, setShow] = useState(false);
+export default function LangSelector({ handleChange }) {
+  const [isOpen, setIsOpen] = useState(false);
   const languageDropdownRef = useRef(null);
   const { i18n } = useTranslation();
 
-  useClickOutside(languageDropdownRef, () => setShow(false));
+  // Close dropdown when clicking outside
+  useClickOutside(languageDropdownRef, () => setIsOpen(false));
 
-  const handleShow = () => {
-    setShow(!show);
-  };
-  const handleClose = () => {
-    setShow(false);
-  };
+  // Open dropdown on hover or click
+  const openDropdown = () => setIsOpen(true);
 
+  // Change language and close dropdown
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
-    setShow(false);
-    handleClose();
+    setIsOpen(false);
+    handleChange();
   };
 
   return (
-    <div ref={languageDropdownRef} className={styles.langSelector}>
-      <button onClick={handleShow} aria-label="Change language">
+    <div className="relative" ref={languageDropdownRef}>
+      <button
+        onClick={openDropdown}
+        onMouseEnter={openDropdown}
+        aria-label="Seleccionar idioma"
+        aria-expanded={isOpen}
+        aria-controls="language-menu"
+        className="p-2 rounded-full transition cursor-pointer"
+      >
         <svg
           width="33"
           height="33"
@@ -53,20 +56,31 @@ export default function LangSelector() {
           </defs>
         </svg>
       </button>
-      <ul
-        className={`${styles.dropdown} ${show ? styles.show : ""}`}
-        role="menu"
-      >
-        {LanguageList?.map((lang) => (
-          <li
-            key={lang.id}
-            onClick={() => changeLanguage(lang.value)}
-            role="menuitem"
-          >
-            {lang.label}
-          </li>
-        ))}
-      </ul>
+
+      {isOpen && (
+        <ul
+          id="language-menu"
+          role="menu"
+          className="absolute right-0 mt-2 w-48 bg-black border border-card-border rounded-md shadow-lg py-1 z-10 transition-all duration-200 ease-in-out"
+        >
+          {LanguageList?.map((lang) => (
+            <li
+              key={lang.id}
+              role="menuitem"
+              tabIndex={0}
+              onClick={() => changeLanguage(lang.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  changeLanguage(lang.value);
+                }
+              }}
+              className="px-4 py-2 text-text-secondary hover:bg-card-bg focus:bg-card-border cursor-pointer transition"
+            >
+              {lang.label}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
