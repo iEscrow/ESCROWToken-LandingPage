@@ -76,7 +76,7 @@
   --color-secondary: #30c2e2;
   --color-tertiary: #e020f1;
 
-  --color-card-bg: #3c3c3c;
+  --color-card-bg: #0b0b0b;
   --color-card-border: #333333;
 
   --color-text-primary: #ffffff;
@@ -89,6 +89,7 @@
   background-clip: text;
   color: transparent;
   display: inline-block;
+  padding-bottom: 6px;
 }
 .bg-black-gradient {
   background: #000000;
@@ -110,8 +111,4 @@ body {
   position: relative;
   will-change: transform;
   margin-bottom: 0; /* Elimina espacio extra */
-}
-
-section {
-  overflow: hidden; /* Evita overflow visual */
 }

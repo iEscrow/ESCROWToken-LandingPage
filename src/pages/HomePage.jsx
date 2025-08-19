@@ -4,6 +4,7 @@ import Presale from "../sections/Presale";
 import PriceAppreciation from "../sections/PriceAppreciation";
 import SecurityAudits from "../sections/SecurityAudits";
 import Header from "../components/Header";
+import Exchange from "../sections/Exchange";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -19,6 +20,7 @@ export default function HomePage() {
         <Presale t={t} />
         <PriceAppreciation t={t} />
         <SecurityAudits t={t} />
+        <Exchange t={t} />
       </main>
     </>
   );
