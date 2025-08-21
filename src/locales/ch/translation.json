@@ -2,74 +2,96 @@
   "Navbar": {},
   "Home": {
     "Banner": {
-      "title": "The utility token of the <0>iEscrow P2P Hybrid CEX/DEX Crypto Exchange</0>",
-      "description": "Exchange cryptocurrency with people all over the world, known or unkown, fastly, easily and with the utmost security through our decentralized escrow.",
-      "presale": "Presale",
-      "whitepaper": "Whitepaper"
+      "title": "<0>iEscrow P2P混合型CEX/DEX加密货币交易所</0>的实用代币",
+      "description": "通过我们的去中心化托管服务，与世界各地的人（无论是熟人还是陌生人）快速、轻松且安全地交换加密货币。",
+      "presale": "预售",
+      "whitepaper": "白皮书"
     },
     "Presale": {
-      "title": "Presale starts in:",
-      "description": "Join iEscrow’s hybrid P2P revolution. $Escrow brings control, security, and freedom. Don’t miss out!",
+      "title": "预售开始时间：",
+      "description": "加入iEscrow的P2P混合革命。$Escrow带来控制、安全和自由。不要错过！",
       "time": {
-        "days": "Days",
-        "hours": "Hours",
-        "minutes": "Min",
-        "seconds": "Sec"
+        "days": "天",
+        "hours": "小时",
+        "minutes": "分钟",
+        "seconds": "秒"
       }
     },
     "PriceAppreciation": {
-      "title": "Engineered for Sustained <0>Price Appreciation</0>",
-      "description": "Limited presale, deflationary mechanics, and strategic tokenomics drive value for early investors.",
+      "title": "为持续<0>价格升值</0>而设计",
+      "description": "有限的预售、通缩机制和战略性代币经济学为早期投资者创造价值。",
       "cards": {
         "feeBurn": {
-          "label": "token burn",
-          "title": "25% fee burn <0>on iEscrow</0>",
-          "description": "With this type of staking holders tend to lock value for longer periods of time, resulting in better price action and earning more yield."
+          "label": "代币销毁",
+          "title": "iEscrow上<0>25%的费用销毁</0>",
+          "description": "通过这种质押方式，持有人倾向于长期锁定价值，从而带来更好的价格表现和更高的收益。"
         },
         "locked": {
-          "label": "Value Preservation",
-          "title": "Locked <0>staking</0>",
-          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+          "label": "价值保护",
+          "title": "锁定<0>质押</0>",
+          "description": "通过这种质押方式，持有人倾向于长期锁定价值，从而带来更好的价格表现和更高的收益。"
         },
         "deflationary": {
-          "label": "Scarcity of Shares",
-          "title": "Deflationary <0>shares</0>",
-          "description": "Upon ending a stake, the contract calculates a new price for shares, so making shorter repeated stakes can’t earn more yield than longer stakes. This makes the price of shares to always go up, benefiting early stakers."
+          "label": "份额稀缺性",
+          "title": "通缩<0>份额</0>",
+          "description": "在质押结束后，合约会为份额计算新的价格，因此短期重复质押无法获得比长期质押更高的收益。这使得份额价格始终上涨，惠及早期质押者。"
         },
         "presale": {
-          "label": "OG Benefits",
-          "title": "Limited <0>presale</0>",
-          "description": "Only 10% of $ESCROW’s max supply is available during the presale. If you miss it, you'll have to buy on the open market, which increases buying pressure and pushes the price upward from day one."
+          "label": "OG权益",
+          "title": "有限<0>预售</0>",
+          "description": "$ESCROW最大供应量的10%在预售期间可用。如果错过预售，你将需要在公开市场上购买，这会增加购买压力并从第一天起推高价格。"
         },
         "tokenomics": {
-          "label": "Value-Driven Strategy",
-          "title": "Top-tier tokenomics + <0>marketing strategy</0>",
-          "description": "$ESCROW is designed to deliver maximum value to holders. Its deflationary shares, token burns, locked staking, and limited presale, combined with strategic partnerships and powerful marketing, work together to fuel demand, drive positive price performance, and deliver outstanding returns."
+          "label": "价值驱动战略",
+          "title": "顶级代币经济学 + <0>营销策略</0>",
+          "description": "$ESCROW旨在为持有人提供最大价值。其通缩份额、代币销毁、锁定质押和有限预售，结合战略合作伙伴关系和强大的营销，共同推动需求，提升价格表现，并带来卓越的回报。"
         }
       }
     },
     "SecurityAudits": {
-      "title": "Security <0>Audits</0>",
-      "phrase": "One security audit is what is expected. <0>Two security audits are better.</0>",
-      "description": "Being a project based on security, we understand the importance of security audits and the crucial and irreplaceable value that they bring to the table, and that´s why we made two security audits.",
+      "title": "安全<0>审计</0>",
+      "phrase": "一次安全审计是预期标准。<0>两次安全审计更好。</0>",
+      "description": "作为一个以安全为基础的项目，我们深知安全审计的重要性及其带来的关键且不可替代的价值，因此我们进行了两次安全审计。",
       "card1": {
-        "label": "Token Security",
-        "title": "Certik <0>Audit</0>",
-        "description": "Being a project based on security, we understand the importance of security audits and the crucial.",
-        "cta": "See audit"
+        "label": "代币安全",
+        "title": "Certik<0>审计</0>",
+        "description": "作为一个以安全为基础的项目，我们深知安全审计的重要性和其关键价值。",
+        "cta": "查看审计"
       },
       "card2": {
-        "label": "Token Security",
-        "title": "Certik <0>Audit</0>",
-        "description": "Being a project based on security, we understand the importance of security audits and the crucial.",
-        "cta": "See audit"
+        "label": "代币安全",
+        "title": "Certik<0>审计</0>",
+        "description": "作为一个以安全为基础的项目，我们深知安全审计的重要性和其关键价值。",
+        "cta": "查看审计"
       }
     },
     "Exchange": {
-      "title": "iEscrow <0>Exchange</0>",
-      "description1": "iEscrow is the upcoming P2P hybrid centralized/descentralized escrow exchange (CEX/DEX) that unleashes the $Escrow utility token´s full potential",
-      "description2": "The $Escrow token provides value to it´s holders by lowering the exchange´s fees by 25%, and earning yield by staking.",
-      "description3": "Additionally, 25% of all $Escrow fees are burned to lower the supply."
+      "title": "iEscrow<0>交易所</0>",
+      "description1": "iEscrow是即将推出的P2P混合型中心化/去中心化托管交易所（CEX/DEX），充分发挥$Escrow实用代币的全部潜力。",
+      "description2": "$Escrow代币通过降低交易所25%的费用并通过质押获得收益，为持有人提供价值。",
+      "description3": "此外，所有$Escrow费用的25%将被销毁以减少供应量。"
+    },
+    "Community": {
+      "title": "我们的社区",
+      "comments": {
+        "0": {
+          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "name": "FC"
+        },
+        "1": {
+          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "name": "FC"
+        },
+        "2": {
+          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "name": "FC"
+        },
+        "3": {
+          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "name": "FC"
+        }
+      },
+      "cta": "有疑问？<0>联系我们</0>或<1>加入我们的社区！</1>"
     }
   },
   "Footer": {}

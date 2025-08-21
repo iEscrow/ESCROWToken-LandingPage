@@ -5,8 +5,8 @@ import Right from "../assets/images/exchange/desktop_right_exchange.png";
 
 export default function Exchange({ t }) {
   return (
-    <section className="relative">
-      <div className="p-4 text-center flex flex-col items-center gap-16 md:translate-y-32 lg:translate-y-40 xl:translate-y-90">
+    <section id="exchange" className="relative">
+      <div className="p-4 text-center flex flex-col items-center gap-16 md:py-32 lg:py-40 xl:py-90">
         <h2 className="text-text-primary flex gap-2 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-5xl">
           <Trans i18nKey="Home.Exchange.title">
             <span className="gradient-text"></span>

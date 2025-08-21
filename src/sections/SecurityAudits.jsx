@@ -5,7 +5,10 @@ import audit2 from "../assets/images/securityAudits/audit2.png";
 
 export default function SecurityAudits({ t }) {
   return (
-    <section className="mt-40 pb-40 w-full text-text-primary text-center p-4 flex flex-col items-center bg-[url(images/bg_audit_mobile.png)] bg-no-repeat bg-cover bg-bottom md:bg-[url(images/bg_audit_desktop.png)] md:bg-contain">
+    <section
+      id="audits"
+      className="mt-40 pb-40 w-full text-text-primary text-center p-4 flex flex-col items-center bg-[url(images/bg_audit_mobile.png)] bg-no-repeat bg-cover bg-bottom md:bg-[url(images/bg_audit_desktop.png)] md:bg-contain"
+    >
       <h2 className="text-text-primary font-semibold text-xl sm:text-2xl md:text-3xl lg:text-5xl">
         <Trans i18nKey="Home.SecurityAudits.title">
           <span className="gradient-text"></span>

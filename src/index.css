@@ -57,6 +57,8 @@
 
   --text-primary: #000000;
   --text-secondary: #4c4c4c;
+
+  scroll-behavior: smooth;
 }
 [data-theme="dark"] {
   --background: #000000;
@@ -73,6 +75,9 @@
   --color-background: #000000;
 
   --color-primary: #1b80a4;
+  --color-primary-hover: #196986;
+  --color-primary-active: #2192bb;
+
   --color-secondary: #30c2e2;
   --color-tertiary: #e020f1;
 
@@ -106,9 +111,155 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--background);
 }
+section {
+  scroll-margin-top: 100px;
+}
+.cards-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
 
 .panel {
-  position: relative;
-  will-change: transform;
-  margin-bottom: 0; /* Elimina espacio extra */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.card-wrapper {
+  width: 100%;
+  max-width: 1490px;
+}
+
+@layer utilities {
+  @keyframes fade-left {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fade-right {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Clases base para animaciones */
+  .animate-fade-left {
+    animation: fade-left 450ms ease-in 0ms 1;
+  }
+
+  .animate-fade-right {
+    animation: fade-right 450ms ease-in 0ms 1;
+  }
+
+  .animate-fade-up {
+    animation: fade-up 450ms ease-in 0ms 1;
+  }
+
+  .animate-fade-down {
+    animation: fade-down 450ms ease-in 0ms 1;
+  }
+
+  /* Modificadores para duración */
+  .animate-duration-300 {
+    animation-duration: 300ms;
+  }
+
+  .animate-duration-450 {
+    animation-duration: 450ms;
+  }
+
+  .animate-duration-600 {
+    animation-duration: 600ms;
+  }
+
+  .animate-duration-1000 {
+    animation-duration: 1000ms;
+  }
+
+  /* Modificadores para retraso */
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  /* Modificadores para easing */
+  .animate-ease-linear {
+    animation-timing-function: linear;
+  }
+
+  .animate-ease-in {
+    animation-timing-function: ease-in;
+  }
+
+  .animate-ease-out {
+    animation-timing-function: ease-out;
+  }
+
+  .animate-ease-in-out {
+    animation-timing-function: ease-in-out;
+  }
+
+  /* Modificadores para repetición */
+  .animate-once {
+    animation-iteration-count: 1;
+  }
+
+  .animate-repeat-2 {
+    animation-iteration-count: 2;
+  }
+
+  .animate-infinite {
+    animation-iteration-count: infinite;
+  }
 }

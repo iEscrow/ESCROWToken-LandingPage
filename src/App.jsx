@@ -8,7 +8,7 @@ export default function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1);
+    }, 1200);
 
     return () => clearTimeout(timer);
   }, []);

@@ -39,15 +39,31 @@ export default function Header() {
               className="w-20 md:w-24 lg:w-32"
             />
           </a>
-          <ul className="hidden lg:flex lg:items-center lg:justify-end lg:gap-x-12 lg:w-full">
+          <ul className="hidden lg:flex lg:items-center lg:justify-end lg:gap-x-6 lg:w-full">
             <li>
-              <a href="#">item 1</a>
+              <a href="#presale" className="hover:text-text-primary">
+                Presale
+              </a>
             </li>
             <li>
-              <a href="#">item 2</a>
+              <a href="#price-appreciation" className="hover:text-text-primary">
+                Price Appreciation
+              </a>
             </li>
             <li>
-              <a href="#">item 3</a>
+              <a href="#audits" className="hover:text-text-primary">
+                Security Audits
+              </a>
+            </li>
+            <li>
+              <a href="#exchange" className="hover:text-text-primary">
+                Exchange
+              </a>
+            </li>
+            <li>
+              <a href="#community" className="hover:text-text-primary">
+                Community
+              </a>
             </li>
             <li>
               <LangSelector />
@@ -55,7 +71,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="w-full max-w-[300px] text-text-primary font-semibold border-2 border-primary bg-primary px-10 py-2 rounded-full uppercase text-center lg:max-w-[180px]"
+                className="w-full max-w-[300px] text-text-primary font-semibold border-2 border-primary bg-primary px-12 py-2 rounded-full uppercase text-center lg:max-w-[180px] hover:border-primary-hover hover:bg-primary-hover focus:bg-primary-active focus:border-primary-active transition-colors duration-300"
               >
                 Presale
               </a>
@@ -133,21 +149,28 @@ export default function Header() {
 
             <ul className="mt-20 text-text-secondary flex flex-col items-center gap-12">
               <li onClick={closeMenu}>
-                <a href="#">item 1</a>
+                <a href="#">Presale</a>
               </li>
               <li onClick={closeMenu}>
-                <a href="#">item 2</a>
+                <a href="#price-appreciation">Price Appreciation</a>
               </li>
               <li onClick={closeMenu}>
-                <a href="#">item 3</a>
+                <a href="#audits">Security Audits</a>
               </li>
+              <li onClick={closeMenu}>
+                <a href="#exchange">Exchange</a>
+              </li>
+              <li onClick={closeMenu}>
+                <a href="#community">Community</a>
+              </li>
+
               <li>
                 <LangSelector handleChange={closeMenu} />
               </li>
               <li onClick={closeMenu}>
                 <a
                   href="#"
-                  className="w-full max-w-[300px] text-text-primary font-semibold border-2 border-primary bg-primary px-6 py-2 rounded-full uppercase text-center lg:max-w-[180px]"
+                  className="w-full max-w-[300px] text-text-primary font-semibold border-2 border-primary bg-primary px-6 py-2 rounded-full uppercase text-center lg:max-w-[180px] hover:border-primary-hover hover:bg-primary-hover focus:bg-primary-active focus:border-primary-active transition-colors duration-300"
                 >
                   Presale
                 </a>

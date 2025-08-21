@@ -2,74 +2,96 @@
   "Navbar": {},
   "Home": {
     "Banner": {
-      "title": "The utility token of the <0>iEscrow P2P Hybrid CEX/DEX Crypto Exchange</0>",
-      "description": "Exchange cryptocurrency with people all over the world, known or unkown, fastly, easily and with the utmost security through our decentralized escrow.",
-      "presale": "Presale",
-      "whitepaper": "Whitepaper"
+      "title": "El token de utilidad de la <0>bolsa de criptomonedas híbrida P2P iEscrow CEX/DEX</0>",
+      "description": "Intercambia criptomonedas con personas de todo el mundo, conocidas o desconocidas, de manera rápida, fácil y con la máxima seguridad a través de nuestro servicio de custodia descentralizado.",
+      "presale": "Preventa",
+      "whitepaper": "Libro blanco"
     },
     "Presale": {
-      "title": "Presale starts in:",
-      "description": "Join iEscrow’s hybrid P2P revolution. $Escrow brings control, security, and freedom. Don’t miss out!",
+      "title": "La preventa comienza en:",
+      "description": "Únete a la revolución híbrida P2P de iEscrow. $Escrow ofrece control, seguridad y libertad. ¡No te lo pierdas!",
       "time": {
-        "days": "Days",
-        "hours": "Hours",
+        "days": "Días",
+        "hours": "Horas",
         "minutes": "Min",
-        "seconds": "Sec"
+        "seconds": "Seg"
       }
     },
     "PriceAppreciation": {
-      "title": "Engineered for Sustained <0>Price Appreciation</0>",
-      "description": "Limited presale, deflationary mechanics, and strategic tokenomics drive value for early investors.",
+      "title": "Diseñado para una <0>apreciación de precio sostenida</0>",
+      "description": "Preventa limitada, mecánicas deflacionarias y tokenomics estratégicos impulsan el valor para los primeros inversores.",
       "cards": {
         "feeBurn": {
-          "label": "token burn",
-          "title": "25% fee burn <0>on iEscrow</0>",
-          "description": "With this type of staking holders tend to lock value for longer periods of time, resulting in better price action and earning more yield."
+          "label": "Quema de tokens",
+          "title": "25% de quema de tarifas <0>en iEscrow</0>",
+          "description": "Con este tipo de participación, los titulares tienden a bloquear valor durante períodos más largos, lo que resulta en una mejor acción de precios y mayores rendimientos."
         },
         "locked": {
-          "label": "Value Preservation",
-          "title": "Locked <0>staking</0>",
-          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+          "label": "Preservación de valor",
+          "title": "Participación <0>bloqueada</0>",
+          "description": "Con este tipo de participación, los titulares tienden a bloquear valor durante períodos más largos, lo que resulta en una mejor acción de precios y mayores rendimientos."
         },
         "deflationary": {
-          "label": "Scarcity of Shares",
-          "title": "Deflationary <0>shares</0>",
-          "description": "Upon ending a stake, the contract calculates a new price for shares, so making shorter repeated stakes can’t earn more yield than longer stakes. This makes the price of shares to always go up, benefiting early stakers."
+          "label": "Escasez de acciones",
+          "title": "Acciones <0>deflacionarias</0>",
+          "description": "Al finalizar una participación, el contrato calcula un nuevo precio para las acciones, por lo que realizar participaciones cortas repetidas no genera más rendimiento que las participaciones largas. Esto hace que el precio de las acciones siempre suba, beneficiando a los primeros participantes."
         },
         "presale": {
-          "label": "OG Benefits",
-          "title": "Limited <0>presale</0>",
-          "description": "Only 10% of $ESCROW’s max supply is available during the presale. If you miss it, you'll have to buy on the open market, which increases buying pressure and pushes the price upward from day one."
+          "label": "Beneficios OG",
+          "title": "Preventa <0>limitada</0>",
+          "description": "Solo el 10% del suministro máximo de $ESCROW está disponible durante la preventa. Si te lo pierdes, tendrás que comprar en el mercado abierto, lo que aumenta la presión de compra y eleva el precio desde el primer día."
         },
         "tokenomics": {
-          "label": "Value-Driven Strategy",
-          "title": "Top-tier tokenomics + <0>marketing strategy</0>",
-          "description": "$ESCROW is designed to deliver maximum value to holders. Its deflationary shares, token burns, locked staking, and limited presale, combined with strategic partnerships and powerful marketing, work together to fuel demand, drive positive price performance, and deliver outstanding returns."
+          "label": "Estrategia impulsada por el valor",
+          "title": "Tokenomics de primer nivel + <0>estrategia de marketing</0>",
+          "description": "$ESCROW está diseñado para ofrecer el máximo valor a los titulares. Sus acciones deflacionarias, quema de tokens, participación bloqueada y preventa limitada, combinadas con asociaciones estratégicas y un marketing potente, trabajan juntas para impulsar la demanda, mejorar el rendimiento del precio y ofrecer rendimientos excepcionales."
         }
       }
     },
     "SecurityAudits": {
-      "title": "Security <0>Audits</0>",
-      "phrase": "One security audit is what is expected. <0>Two security audits are better.</0>",
-      "description": "Being a project based on security, we understand the importance of security audits and the crucial and irreplaceable value that they bring to the table, and that´s why we made two security audits.",
+      "title": "Auditorías de <0>seguridad</0>",
+      "phrase": "Una auditoría de seguridad es lo esperado. <0>Dos auditorías de seguridad son mejores.</0>",
+      "description": "Siendo un proyecto basado en la seguridad, entendemos la importancia de las auditorías de seguridad y el valor crucial e insustituible que aportan, y por eso realizamos dos auditorías de seguridad.",
       "card1": {
-        "label": "Token Security",
-        "title": "Certik <0>Audit</0>",
-        "description": "Being a project based on security, we understand the importance of security audits and the crucial.",
-        "cta": "See audit"
+        "label": "Seguridad del token",
+        "title": "Auditoría <0>Certik</0>",
+        "description": "Siendo un proyecto basado en la seguridad, entendemos la importancia de las auditorías de seguridad y lo crucial.",
+        "cta": "Ver auditoría"
       },
       "card2": {
-        "label": "Token Security",
-        "title": "Certik <0>Audit</0>",
-        "description": "Being a project based on security, we understand the importance of security audits and the crucial.",
-        "cta": "See audit"
+        "label": "Seguridad del token",
+        "title": "Auditoría <0>Certik</0>",
+        "description": "Siendo un proyecto basado en la seguridad, entendemos la importancia de las auditorías de seguridad y lo crucial.",
+        "cta": "Ver auditoría"
       }
     },
     "Exchange": {
-      "title": "iEscrow <0>Exchange</0>",
-      "description1": "iEscrow is the upcoming P2P hybrid centralized/descentralized escrow exchange (CEX/DEX) that unleashes the $Escrow utility token´s full potential",
-      "description2": "The $Escrow token provides value to it´s holders by lowering the exchange´s fees by 25%, and earning yield by staking.",
-      "description3": "Additionally, 25% of all $Escrow fees are burned to lower the supply."
+      "title": "Bolsa <0>iEscrow</0>",
+      "description1": "iEscrow es la próxima bolsa de custodia híbrida centralizada/descentralizada P2P (CEX/DEX) que desata todo el potencial del token de utilidad $Escrow.",
+      "description2": "El token $Escrow proporciona valor a sus titulares al reducir las tarifas de la bolsa en un 25% y generar rendimientos mediante la participación.",
+      "description3": "Además, el 25% de todas las tarifas de $Escrow se queman para reducir la oferta."
+    },
+    "Community": {
+      "title": "Nuestra comunidad",
+      "comments": {
+        "0": {
+          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "name": "FC"
+        },
+        "1": {
+          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "name": "FC"
+        },
+        "2": {
+          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "name": "FC"
+        },
+        "3": {
+          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "name": "FC"
+        }
+      },
+      "cta": "¿Tienes preguntas? <0>Contáctanos</0> o <1>¡únete a nuestra comunidad!</1>"
     }
   },
   "Footer": {}

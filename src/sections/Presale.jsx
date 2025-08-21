@@ -3,7 +3,10 @@ import CounterDown from "../components/CounterDown";
 
 export default function Presale({ t }) {
   return (
-    <section className="relative text-text-primary my-32 flex flex-col gap-8 md:flex-row md:h-[344px] md:items-center lg:h-[540px]">
+    <section
+      id="presale"
+      className="relative text-text-primary my-32 flex flex-col gap-8 md:flex-row md:h-[344px] md:items-center lg:h-[540px]"
+    >
       <div className="flex flex-col items-center gap-8 md:items-start md:container md:mx-auto">
         <div className="flex flex-col items-center text-center p-4 gap-8 md:text-start md:items-start lg:gap-12">
           <h2 className="gradient-text text-xl font-bold sm:text-2xl md:text-3xl lg:text-[55px]">

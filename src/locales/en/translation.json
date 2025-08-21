@@ -70,6 +70,28 @@
       "description1": "iEscrow is the upcoming P2P hybrid centralized/descentralized escrow exchange (CEX/DEX) that unleashes the $Escrow utility token´s full potential",
       "description2": "The $Escrow token provides value to it´s holders by lowering the exchange´s fees by 25%, and earning yield by staking.",
       "description3": "Additionally, 25% of all $Escrow fees are burned to lower the supply."
+    },
+    "Community": {
+      "title": "Our Community",
+      "comments": {
+        "0": {
+          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "name": "FC"
+        },
+        "1": {
+          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "name": "FC"
+        },
+        "2": {
+          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "name": "FC"
+        },
+        "3": {
+          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "name": "FC"
+        }
+      },
+      "cta": "Got questions? <0>Contact us</0> or <1>join our community!</1>"
     }
   },
   "Footer": {}
