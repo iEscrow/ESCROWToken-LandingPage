@@ -21,12 +21,12 @@ export default function Presale({ t }) {
         </div>
 
         <div className="overflow-hidden w-full h-full flex items-start justify-center md:absolute md:right-0 md:top-0 md:-z-10 md:justify-end">
-          <div className="hidden absolute left-0 top-0 md:flex h-full w-[56%] bg-black-gradient"></div>
-          <img
-            src={Rocket}
-            alt="rocket launcher video"
-            className="h-full w-full object-cover md:w-[70%]"
-          />
+          <div className="hidden z-20 absolute left-0 top-0 md:flex h-full w-full bg-black-gradient"></div>
+          <div className="relative h-full w-full bg-red-200 md:w-[75%] overflow-hidden">
+            <div className="hidden z-20 absolute left-0 top-0 md:flex h-20 w-full bg-black-gradient-top"></div>
+            <img src={Rocket} alt="rocket launcher video" className="w-full" />
+            <div className="hidden z-20 absolute left-0 bottom-0 md:flex h-20 w-full bg-black-gradient-bottom"></div>
+          </div>
         </div>
       </div>
     </section>

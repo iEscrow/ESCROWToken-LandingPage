@@ -126,7 +126,7 @@ export default function PriceAppreciation({ t }) {
         {t("Home.PriceAppreciation.description")}
       </p>
 
-      <div className="cards-container relative w-full h-screen">
+      <div className="cards-container relative w-full h-screen ">
         {cards.map((card, index) => (
           <div
             key={index}
@@ -136,7 +136,7 @@ export default function PriceAppreciation({ t }) {
             } w-full max-w-[1490px] absolute inset-0 flex items-center justify-center my-4`}
             style={{ zIndex: 10 + index }}
           >
-            <div className="card-wrapper w-full lg:mb-5">
+            <div className="card-wrapper w-full max-w-[1440px] lg:mb-5">
               <AppreciationCard
                 label={card.label}
                 title={card.title}
