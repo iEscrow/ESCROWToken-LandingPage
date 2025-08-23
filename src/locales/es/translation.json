@@ -72,26 +72,26 @@
       "description3": "Además, el 25% de todas las tarifas de $Escrow se queman para reducir la oferta."
     },
     "Community": {
-      "title": "Nuestra comunidad",
+      "title": "Our Community",
       "comments": {
         "0": {
-          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
-          "name": "FC"
+          "comment": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "author": "FC"
         },
         "1": {
-          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
-          "name": "FC"
+          "comment": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "author": "FC"
         },
         "2": {
-          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
-          "name": "FC"
+          "comment": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "author": "FC"
         },
         "3": {
-          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
-          "name": "FC"
+          "comment": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "author": "FC"
         }
       },
-      "cta": "¿Tienes preguntas? <0>Contáctanos</0> o <1>¡únete a nuestra comunidad!</1>"
+      "cta": "Got questions? <0>Contact us</0> or <1>join our community!</1>"
     }
   },
   "Footer": {}

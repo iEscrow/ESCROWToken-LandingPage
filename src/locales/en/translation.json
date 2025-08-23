@@ -75,20 +75,20 @@
       "title": "Our Community",
       "comments": {
         "0": {
-          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
-          "name": "FC"
+          "comment": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "author": "FC"
         },
         "1": {
-          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
-          "name": "FC"
+          "comment": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "author": "FC"
         },
         "2": {
-          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
-          "name": "FC"
+          "comment": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "author": "FC"
         },
         "3": {
-          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
-          "name": "FC"
+          "comment": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "author": "FC"
         }
       },
       "cta": "Got questions? <0>Contact us</0> or <1>join our community!</1>"

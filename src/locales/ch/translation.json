@@ -72,26 +72,26 @@
       "description3": "此外，所有$Escrow费用的25%将被销毁以减少供应量。"
     },
     "Community": {
-      "title": "我们的社区",
+      "title": "Our Community",
       "comments": {
         "0": {
-          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
-          "name": "FC"
+          "comment": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "author": "FC"
         },
         "1": {
-          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
-          "name": "FC"
+          "comment": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "author": "FC"
         },
         "2": {
-          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
-          "name": "FC"
+          "comment": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "author": "FC"
         },
         "3": {
-          "description": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
-          "name": "FC"
+          "comment": "“Morbi id nisi ut justo gravida ornare in sed magna. Aliquam commodo dignissim nulla vitae finibus. Pellentesque feugiat”",
+          "author": "FC"
         }
       },
-      "cta": "有疑问？<0>联系我们</0>或<1>加入我们的社区！</1>"
+      "cta": "Got questions? <0>Contact us</0> or <1>join our community!</1>"
     }
   },
   "Footer": {}
