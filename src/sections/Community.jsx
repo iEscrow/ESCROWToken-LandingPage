@@ -62,13 +62,15 @@ export default function Community({ t }) {
           i18nKey="Home.Community.cta"
           components={[
             <a
-              href="/#"
-              className="text-primary underline hover:text-primary-dark"
+              href="https://t.me/+HByTVekbjfJiMzdh"
+              target="_blank"
+              className="text-primary underline hover:text-primary-hover font-semibold"
               aria-label="Contact us"
             />,
             <a
-              href="/3"
-              className="text-primary underline hover:text-primary-dark"
+              href="https://t.me/+HByTVekbjfJiMzdh"
+              target="_blank"
+              className="text-primary underline hover:text-primary-hover font-semibold"
               aria-label="Join our community"
             />,
           ]}

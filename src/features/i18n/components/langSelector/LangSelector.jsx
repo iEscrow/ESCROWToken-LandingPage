@@ -8,13 +8,10 @@ export default function LangSelector({ handleChange }) {
   const languageDropdownRef = useRef(null);
   const { i18n } = useTranslation();
 
-  // Close dropdown when clicking outside
   useClickOutside(languageDropdownRef, () => setIsOpen(false));
 
-  // Open dropdown on hover or click
-  const openDropdown = () => setIsOpen(true);
+  const toggleDropdown = () => setIsOpen((prev) => !prev);
 
-  // Change language and close dropdown
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
     setIsOpen(false);
@@ -24,8 +21,7 @@ export default function LangSelector({ handleChange }) {
   return (
     <div className="relative" ref={languageDropdownRef}>
       <button
-        onClick={openDropdown}
-        onMouseEnter={openDropdown}
+        onClick={toggleDropdown}
         aria-label="Seleccionar idioma"
         aria-expanded={isOpen}
         aria-controls="language-menu"

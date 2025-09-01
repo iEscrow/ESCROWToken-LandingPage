@@ -41,18 +41,13 @@ export default function Header() {
           </a>
           <ul className="hidden lg:flex lg:items-center lg:justify-end lg:gap-x-6 lg:w-full">
             <li>
-              <a href="#" className="hover:text-text-primary">
-                Presale
+              <a href="#whitepaper" className="hover:text-text-primary">
+                whitepaper
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-text-primary">
-                Price Appreciation
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-text-primary">
-                Security Audits
+              <a href="#staking" className="hover:text-text-primary">
+                staking
               </a>
             </li>
             <li>
@@ -139,13 +134,10 @@ export default function Header() {
 
             <ul className="mt-20 text-text-secondary flex flex-col items-center gap-12">
               <li onClick={closeMenu}>
-                <a href="#">Presale</a>
+                <a href="#whitepaper">whitepaper</a>
               </li>
               <li onClick={closeMenu}>
-                <a href="#">Price Appreciation</a>
-              </li>
-              <li onClick={closeMenu}>
-                <a href="#">Security Audits</a>
+                <a href="#staking">staking</a>
               </li>
               <li>
                 <LangSelector handleChange={closeMenu} />
