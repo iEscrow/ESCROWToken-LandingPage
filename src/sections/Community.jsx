@@ -6,12 +6,14 @@ import {
 } from "../components/Carousel";
 import { communityComments } from "../lib/data/communityComments";
 import CommentCard from "../components/CommentCard";
+import Decoration from "../assets/images/community.png";
+import SocialButton from "../components/SocialButton";
 
 export default function Community({ t }) {
   return (
     <section
       id="community"
-      className="relative text-center mt-16 md:mt-24 lg:mt-32"
+      className="relative container mx-auto text-center my-16 md:my-24 lg:my-32"
       aria-labelledby="community-title"
     >
       <h2
@@ -21,7 +23,7 @@ export default function Community({ t }) {
         {t("Home.Community.title")}
       </h2>
 
-      <div className="mt-10 md:mt-12 lg:mt-16 max-w-4xl mx-auto">
+      <div className="relative mt-10 md:mt-12 lg:mt-16 max-w-4xl mx-auto">
         <Carousel aria-label="Community testimonials">
           <CarouselContent>
             {communityComments.map((commentPair, index) => (
@@ -39,10 +41,23 @@ export default function Community({ t }) {
               </CarouselItem>
             ))}
           </CarouselContent>
+          <div className="h-20 flex justify-center items-center gap-3">
+            <div className="h-3 w-3 rounded-full bg-gray-400"></div>
+            <div className="h-5 w-5 rounded-full bg-secondary"></div>
+            <div className="h-3 w-3 rounded-full bg-gray-400"></div>
+          </div>
         </Carousel>
+
+        <img
+          src={Decoration}
+          alt="decoracion gradiente de colores violetas"
+          draggable="false"
+          loading="lazy"
+          className="w-full absolute bottom-0 left-1/2 -translate-x-1/2 -z-10"
+        />
       </div>
 
-      <p className="text-text-secondary mt-6">
+      <p className="text-text-secondary my-6 lg:mt-10 lg:mb-16">
         <Trans
           i18nKey="Home.Community.cta"
           components={[
@@ -59,6 +74,15 @@ export default function Community({ t }) {
           ]}
         />
       </p>
+
+      <div className="flex justify-center gap-12">
+        <SocialButton href="#" title="Facebook" icon="facebook" />
+        <SocialButton href="#" title="instagram" icon="instagram" />
+        <SocialButton href="#" title="Twitter" icon="twitter" />
+        <SocialButton href="#" title="Tiktok" icon="tiktok" />
+        <SocialButton href="#" title="Youtube" icon="youtube" />
+        <SocialButton href="#" title="Telegram" icon="telegram" />
+      </div>
     </section>
   );
 }
