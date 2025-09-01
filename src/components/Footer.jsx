@@ -1,7 +1,74 @@
 import Logo from "../assets/images/logo.svg";
+import FooterDropdown from "./ui/FooterDropdown";
 import SocialButton from "./ui/SocialButton";
 
 export default function Footer() {
+  const company = {
+    title: "Sobre Nosotros",
+    items: [
+      {
+        href: "/#",
+        target: "_self",
+        label: "Acerca",
+      },
+      {
+        href: "/#",
+        target: "_self",
+        label: "Términos",
+      },
+      {
+        href: "/#",
+        target: "_self",
+        label: "Privacidad",
+      },
+    ],
+  };
+  const services = {
+    title: "Servicios",
+    items: [
+      {
+        href: "/#",
+        target: "_self",
+        label: "Descargar",
+      },
+      {
+        href: "/#",
+        target: "_self",
+        label: "Marketplace",
+      },
+      {
+        href: "/#",
+        target: "_self",
+        label: "Escrow",
+      },
+      {
+        href: "/#",
+        target: "_self",
+        label: "Programa de referidos",
+      },
+      {
+        href: "/#",
+        target: "_self",
+        label: "Solicitud de listado",
+      },
+    ],
+  };
+  const support = {
+    title: "Soporte",
+    items: [
+      {
+        href: "/#",
+        target: "_self",
+        label: "Centro de ayuda",
+      },
+      {
+        href: "/#",
+        target: "_self",
+        label: "Seguridad",
+      },
+    ],
+  };
+
   return (
     <footer className="w-full px-4 pt-4 border-t-[1px] border-card-border ">
       <div className="container mx-auto flex flex-col items-center gap-4">
@@ -16,62 +83,12 @@ export default function Footer() {
             />
           </a>
 
-          <div className="flex flex-col gap-4 md:flex-row md:gap-8 md:w-full md:justify-between lg:justify-end lg:gap-10 xl:gap-28 2xl:gap-40">
-            <div className="text-text-secondary">
-              <span className="text-primary uppercase font-semibold">
-                Sobre nosotros
-              </span>
-              <ul>
-                <li>
-                  <a href="#">Acerca</a>
-                </li>
-                <li>
-                  <a href="#">Términos</a>
-                </li>
-                <li>
-                  <a href="#">Privacidad</a>
-                </li>
-              </ul>
-            </div>
+          <div className="flex flex-col w-full gap-4 md:flex-row md:gap-8 md:justify-between lg:justify-end lg:gap-10 xl:gap-28 2xl:gap-40">
+            <FooterDropdown title={company.title} list={company.items} />
+            <FooterDropdown title={services.title} list={services.items} />
+            <FooterDropdown title={support.title} list={support.items} />
 
-            <div className="text-text-secondary">
-              <span className="text-primary uppercase font-semibold">
-                Servicios
-              </span>
-              <ul>
-                <li>
-                  <a href="#">Descargar</a>
-                </li>
-                <li>
-                  <a href="#">Marketplace</a>
-                </li>
-                <li>
-                  <a href="#">Escrow</a>
-                </li>
-                <li>
-                  <a href="#">Programa de referidos</a>
-                </li>
-                <li>
-                  <a href="#">Solicitud de listado</a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="text-text-secondary">
-              <span className="text-primary uppercase font-semibold">
-                Soporte
-              </span>
-              <ul>
-                <li>
-                  <a href="#">Centro de ayuda</a>
-                </li>
-                <li>
-                  <a href="#">Seguridad</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
+            <div className="w-full lg:w-auto">
               <span className="text-primary uppercase font-semibold">
                 Community
               </span>
@@ -116,6 +133,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
+
         <div className="w-full text-center flex flex-col-reverse items-center border-t-[1px] border-card-border py-4 lg:flex-row lg:w-full lg:justify-between">
           <p className="text-primary mt-6 lg:mt-0 lg:w-full lg:text-start">
             &copy; 2025 iEscrow.crypto Derechos Reservados
