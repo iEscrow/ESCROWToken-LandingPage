@@ -1,13 +1,13 @@
-import Rocket from "../assets/images/presale/presale.png";
+import Rocket from "../assets/presale.mp4";
 import CounterDown from "../components/CounterDown";
 
 export default function Presale({ t }) {
   return (
     <section
       id="presale"
-      className="relative text-text-primary my-32 flex flex-col gap-8 md:flex-row md:h-[344px] md:items-center lg:h-[540px]"
+      className="relative text-text-primary my-32 flex flex-col gap-8 md:flex-row md:h-[344px] md:items-center lg:h-[540px] xl:h-[620px] 2xl:h-[700px]"
     >
-      <div className="flex flex-col items-center gap-8 md:items-start md:container md:mx-auto">
+      <div className="flex flex-col items-center gap-8 md:items-start md:container md:mx-auto lg:h-full">
         <div className="flex flex-col items-center text-center p-4 gap-8 md:text-start md:items-start lg:gap-12">
           <h2 className="gradient-text text-xl font-bold sm:text-2xl md:text-3xl lg:text-[55px]">
             {t("Home.Presale.title")}
@@ -24,7 +24,7 @@ export default function Presale({ t }) {
           <div className="hidden z-20 absolute left-0 top-0 md:flex h-full w-full bg-black-gradient"></div>
           <div className="relative h-full w-full bg-red-200 md:w-[75%] overflow-hidden">
             <div className="hidden z-20 absolute left-0 top-0 md:flex h-20 w-full bg-black-gradient-top"></div>
-            <img src={Rocket} alt="rocket launcher video" className="w-full" />
+            <video src={Rocket} loop autoPlay muted className="w-full"></video>
             <div className="hidden z-20 absolute left-0 bottom-0 md:flex h-20 w-full bg-black-gradient-bottom"></div>
           </div>
         </div>

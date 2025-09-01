@@ -41,28 +41,18 @@ export default function Header() {
           </a>
           <ul className="hidden lg:flex lg:items-center lg:justify-end lg:gap-x-6 lg:w-full">
             <li>
-              <a href="#presale" className="hover:text-text-primary">
+              <a href="#" className="hover:text-text-primary">
                 Presale
               </a>
             </li>
             <li>
-              <a href="#price-appreciation" className="hover:text-text-primary">
+              <a href="#" className="hover:text-text-primary">
                 Price Appreciation
               </a>
             </li>
             <li>
-              <a href="#audits" className="hover:text-text-primary">
+              <a href="#" className="hover:text-text-primary">
                 Security Audits
-              </a>
-            </li>
-            <li>
-              <a href="#exchange" className="hover:text-text-primary">
-                Exchange
-              </a>
-            </li>
-            <li>
-              <a href="#community" className="hover:text-text-primary">
-                Community
               </a>
             </li>
             <li>
@@ -152,18 +142,11 @@ export default function Header() {
                 <a href="#">Presale</a>
               </li>
               <li onClick={closeMenu}>
-                <a href="#price-appreciation">Price Appreciation</a>
+                <a href="#">Price Appreciation</a>
               </li>
               <li onClick={closeMenu}>
-                <a href="#audits">Security Audits</a>
+                <a href="#">Security Audits</a>
               </li>
-              <li onClick={closeMenu}>
-                <a href="#exchange">Exchange</a>
-              </li>
-              <li onClick={closeMenu}>
-                <a href="#community">Community</a>
-              </li>
-
               <li>
                 <LangSelector handleChange={closeMenu} />
               </li>
