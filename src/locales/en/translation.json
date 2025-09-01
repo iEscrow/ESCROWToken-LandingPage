@@ -71,6 +71,32 @@
       "description2": "The $Escrow token provides value to it´s holders by lowering the exchange´s fees by 25%, and earning yield by staking.",
       "description3": "Additionally, 25% of all $Escrow fees are burned to lower the supply."
     },
+    "Bento": {
+      "title": "Engineered for Sustained <0>Price Appreciation</0>",
+      "description": "Limited presale, deflationary mechanics, and strategic tokenomics drive value for early investors.",
+      "cards": {
+        "1": {
+          "title": "Locked staking",
+          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+        },
+        "2": {
+          "title": "Locked staking",
+          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+        },
+        "3": {
+          "title": "Locked staking",
+          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+        },
+        "4": {
+          "title": "Locked staking",
+          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+        },
+        "5": {
+          "title": "Locked staking",
+          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+        }
+      }
+    },
     "Community": {
       "title": "Our Community",
       "comments": {
