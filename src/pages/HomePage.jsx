@@ -18,7 +18,6 @@ export default function HomePage() {
       <meta name="description" content="escrow landing page" />
       <Header />
       <main>
-        <Header />
         <HomeBanner t={t} />
         <Presale t={t} />
         <PriceAppreciation t={t} />
