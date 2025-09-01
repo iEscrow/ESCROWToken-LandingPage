@@ -76,12 +76,36 @@ export default function Community({ t }) {
       </p>
 
       <div className="flex justify-center gap-12">
-        <SocialButton href="#" title="Facebook" icon="facebook" />
-        <SocialButton href="#" title="instagram" icon="instagram" />
-        <SocialButton href="#" title="Twitter" icon="twitter" />
-        <SocialButton href="#" title="Tiktok" icon="tiktok" />
-        <SocialButton href="#" title="Youtube" icon="youtube" />
-        <SocialButton href="#" title="Telegram" icon="telegram" />
+        <SocialButton
+          href="https://www.facebook.com/profile.php?id=61580173739629"
+          title="Facebook"
+          icon="facebook"
+        />
+        <SocialButton
+          href="https://www.instagram.com/iescrowcrypto"
+          title="instagram"
+          icon="instagram"
+        />
+        <SocialButton
+          href="https://x.com/iEscrowcrypto"
+          title="Twitter"
+          icon="twitter"
+        />
+        <SocialButton
+          href="https://www.tiktok.com/@iescrowcrypto"
+          title="Tiktok"
+          icon="tiktok"
+        />
+        <SocialButton
+          href="https://www.youtube.com/@iEscrowcrypto"
+          title="Youtube"
+          icon="youtube"
+        />
+        <SocialButton
+          href="https://t.me/+HByTVekbjfJiMzdh"
+          title="Telegram"
+          icon="telegram"
+        />
       </div>
     </section>
   );

@@ -77,37 +77,37 @@ export default function Footer() {
               </span>
               <div className="flex items-start justify-start gap-7 flex-wrap max-w-[160px] mt-4">
                 <SocialButton
-                  href=""
+                  href="https://www.facebook.com/profile.php?id=61580173739629"
                   title="Facebook"
                   icon="facebook"
                   variant="secondary"
                 />
                 <SocialButton
-                  href="#"
+                  href="https://www.instagram.com/iescrowcrypto"
                   title="instagram"
                   icon="instagram_secondary"
                   variant="secondary"
                 />
                 <SocialButton
-                  href="#"
+                  href="https://x.com/iEscrowcrypto"
                   title="Twitter"
                   icon="twitter_secondary"
                   variant="secondary"
                 />
                 <SocialButton
-                  href="#"
+                  href="https://www.tiktok.com/@iescrowcrypto"
                   title="Tiktok"
                   icon="tiktok"
                   variant="secondary"
                 />
                 <SocialButton
-                  href="#"
+                  href="https://www.youtube.com/@iEscrowcrypto"
                   title="Youtube"
                   icon="youtube_secondary"
                   variant="secondary"
                 />
                 <SocialButton
-                  href="#"
+                  href="https://t.me/+HByTVekbjfJiMzdh"
                   title="Telegram"
                   icon="telegram_secondary"
                   variant="secondary"
