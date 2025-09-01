@@ -2,7 +2,7 @@ import { Trans } from "react-i18next";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import AppreciationCard from "../components/AppreciationCard";
+import AppreciationCard from "./ui/AppreciationCard";
 import feeBurn from "../assets/images/cards/feeburn.png";
 import locked from "../assets/images/cards/locked.png";
 import deflationary from "../assets/images/cards/deflationary.png";

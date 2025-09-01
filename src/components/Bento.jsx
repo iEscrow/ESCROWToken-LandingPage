@@ -1,4 +1,4 @@
-import BentoCard from "../components/BentoCard";
+import BentoCard from "./ui/BentoCard";
 import Rocket from "../assets/images/cards/tokenomics.png";
 
 export default function Bento() {
@@ -66,9 +66,9 @@ export default function Bento() {
             <p className="text-base leading-9 max-w-[400px] xl:max-w-[600px]">
               With this type of staking, holders tend to lock in value for
               longer periods of time, resulting in better price action and
-              greater yield this type of staking, holders tend to lock in
-              value for longer periods of time, resulting in better price action
-              and greater yield.
+              greater yield this type of staking, holders tend to lock in value
+              for longer periods of time, resulting in better price action and
+              greater yield.
             </p>
             <img
               src={Rocket}

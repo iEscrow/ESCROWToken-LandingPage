@@ -1,5 +1,5 @@
 import Logo from "../assets/images/logo.svg";
-import SocialButton from "./SocialButton";
+import SocialButton from "./ui/SocialButton";
 
 export default function Footer() {
   return (

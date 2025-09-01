@@ -1,5 +1,5 @@
 import { Trans } from "react-i18next";
-import AuditCard from "../components/AuditCard";
+import AuditCard from "./ui/AuditCard";
 import audit1 from "../assets/images/securityAudits/audit1.png";
 import audit2 from "../assets/images/securityAudits/audit2.png";
 

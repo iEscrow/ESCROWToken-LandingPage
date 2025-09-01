@@ -1,5 +1,5 @@
 import { Trans } from "react-i18next";
-import cardBg from "../assets/images/cards/bg.png";
+import cardBg from "../../assets/images/cards/bg.png";
 
 export default function AppreciationCard({ label, title, description, image }) {
   return (

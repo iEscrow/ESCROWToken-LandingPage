@@ -1,5 +1,5 @@
 import Rocket from "../assets/presale.mp4";
-import CounterDown from "../components/CounterDown";
+import CounterDown from "./ui/CounterDown";
 
 export default function Presale({ t }) {
   return (

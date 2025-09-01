@@ -1,4 +1,4 @@
-import { socialIcons } from "../lib/utils/icons";
+import { socialIcons } from "../../lib/utils/icons";
 
 export default function SocialButton({
   href,

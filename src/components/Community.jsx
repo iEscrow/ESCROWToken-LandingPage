@@ -1,13 +1,9 @@
 import { Trans } from "react-i18next";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from "../components/Carousel";
+import { Carousel, CarouselContent, CarouselItem } from "./ui/Carousel";
 import { communityComments } from "../lib/data/communityComments";
-import CommentCard from "../components/CommentCard";
+import CommentCard from "./ui/CommentCard";
 import Decoration from "../assets/images/community.png";
-import SocialButton from "../components/SocialButton";
+import SocialButton from "./ui/SocialButton";
 
 export default function Community({ t }) {
   return (
