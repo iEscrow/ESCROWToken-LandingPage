@@ -26,7 +26,7 @@ export default function HomePage() {
         <Bento t={t} />
         <Community t={t} />
       </main>
-      <Footer />
+      <Footer t={t} />
     </>
   );
 }

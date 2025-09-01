@@ -94,5 +94,29 @@
       "cta": "Got questions? <0>Contact us</0> or <1>join our community!</1>"
     }
   },
-  "Footer": {}
+  "Footer": {
+    "about": {
+      "title": "Sobre nosotros",
+      "about": "Acerca",
+      "terms": "Términos",
+      "privacy": "Privacidad"
+    },
+    "services": {
+      "title": "Servicios",
+      "download": "Descargar",
+      "marketplace": "Marketplace",
+      "escrow": "Escrow",
+      "program": "Programa de referidos",
+      "application": "Solicitud de listado"
+    },
+    "support": {
+      "title": "Soporte",
+      "center": "Centro de ayuda",
+      "security": "Seguridad"
+    },
+    "community": "Comunidad",
+    "copyright": "iEscrow.crypto Derechos Reservados",
+    "protocol": "Protocol disclaimer",
+    "privacy": "Políticas de Privacidad"
+  }
 }

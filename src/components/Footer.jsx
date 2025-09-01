@@ -2,69 +2,71 @@ import Logo from "../assets/images/logo.svg";
 import FooterDropdown from "./ui/FooterDropdown";
 import SocialButton from "./ui/SocialButton";
 
-export default function Footer() {
+export default function Footer({ t }) {
   const company = {
-    title: "Sobre Nosotros",
+    title: t("Footer.about.title"),
     items: [
       {
         href: "/#",
         target: "_self",
-        label: "Acerca",
+        label: t("Footer.about.about"),
       },
       {
         href: "/#",
         target: "_self",
-        label: "Términos",
+        label: t("Footer.about.terms"),
       },
       {
         href: "/#",
         target: "_self",
-        label: "Privacidad",
+        label: t("Footer.about.privacy"),
       },
     ],
   };
+
   const services = {
-    title: "Servicios",
+    title: t("Footer.services.title"),
     items: [
       {
         href: "/#",
         target: "_self",
-        label: "Descargar",
+        label: t("Footer.services.download"),
       },
       {
         href: "/#",
         target: "_self",
-        label: "Marketplace",
+        label: t("Footer.services.marketplace"),
       },
       {
         href: "/#",
         target: "_self",
-        label: "Escrow",
+        label: t("Footer.services.escrow"),
       },
       {
         href: "/#",
         target: "_self",
-        label: "Programa de referidos",
+        label: t("Footer.services.program"),
       },
       {
         href: "/#",
         target: "_self",
-        label: "Solicitud de listado",
+        label: t("Footer.services.application"),
       },
     ],
   };
+
   const support = {
-    title: "Soporte",
+    title: t("Footer.support.title"),
     items: [
       {
         href: "/#",
         target: "_self",
-        label: "Centro de ayuda",
+        label: t("Footer.support.center"),
       },
       {
         href: "/#",
         target: "_self",
-        label: "Seguridad",
+        label: t("Footer.support.security"),
       },
     ],
   };

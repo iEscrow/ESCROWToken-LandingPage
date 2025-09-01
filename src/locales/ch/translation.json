@@ -94,5 +94,29 @@
       "cta": "Got questions? <0>Contact us</0> or <1>join our community!</1>"
     }
   },
-  "Footer": {}
+  "Footer": {
+    "about": {
+      "title": "关于我们",
+      "about": "关于",
+      "terms": "条款",
+      "privacy": "隐私"
+    },
+    "services": {
+      "title": "服务",
+      "download": "下载",
+      "marketplace": "市场",
+      "escrow": "托管",
+      "program": "推荐计划",
+      "application": "上架申请"
+    },
+    "support": {
+      "title": "支持",
+      "center": "帮助中心",
+      "security": "安全"
+    },
+    "community": "社区",
+    "copyright": "iEscrow.crypto 版权所有",
+    "protocol": "协议免责声明",
+    "privacy": "隐私政策"
+  }
 }
