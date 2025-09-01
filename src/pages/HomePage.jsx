@@ -7,6 +7,7 @@ import Header from "../components/Header";
 import Exchange from "../sections/Exchange";
 import Community from "../sections/Community";
 import Footer from "../components/Footer";
+import Bento from "../sections/Bento";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -23,6 +24,7 @@ export default function HomePage() {
         <PriceAppreciation t={t} />
         <SecurityAudits t={t} />
         <Exchange t={t} />
+        <Bento t={t} />
         <Community t={t} />
       </main>
       <Footer />
