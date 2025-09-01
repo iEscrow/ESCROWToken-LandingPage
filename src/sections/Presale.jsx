@@ -3,12 +3,9 @@ import CounterDown from "../components/CounterDown";
 
 export default function Presale({ t }) {
   return (
-    <section
-      id="presale"
-      className="relative text-text-primary my-32 flex flex-col gap-8 md:flex-row md:h-[344px] md:items-center lg:h-[540px] xl:h-[620px] 2xl:h-[700px]"
-    >
-      <div className="flex flex-col items-center gap-8 md:items-start md:container md:mx-auto lg:h-full">
-        <div className="flex flex-col items-center text-center p-4 gap-8 md:text-start md:items-start lg:gap-12">
+    <section id="presale" className="relative text-text-primary my-32">
+      <div className="flex flex-col items-center gap-8 md:items-start md:container md:mx-auto md:justify-center md:h-[344px] lg:h-[540px] xl:h-[620px] 2xl:h-[700px]">
+        <div className="flex flex-col items-center text-center p-4 gap-8 md:text-start md:items-start  lg:gap-12">
           <h2 className="gradient-text text-xl font-bold sm:text-2xl md:text-3xl lg:text-[55px]">
             {t("Home.Presale.title")}
           </h2>
@@ -22,9 +19,15 @@ export default function Presale({ t }) {
 
         <div className="overflow-hidden w-full h-full flex items-start justify-center md:absolute md:right-0 md:top-0 md:-z-10 md:justify-end">
           <div className="hidden z-20 absolute left-0 top-0 md:flex h-full w-full bg-black-gradient"></div>
-          <div className="relative h-full w-full bg-red-200 md:w-[75%] overflow-hidden">
+          <div className="relative h-full w-full bg-red-200 md:w-[75%] -my-2">
             <div className="hidden z-20 absolute left-0 top-0 md:flex h-20 w-full bg-black-gradient-top"></div>
-            <video src={Rocket} loop autoPlay muted className="w-full"></video>
+            <video
+              src={Rocket}
+              loop
+              autoPlay
+              muted
+              className="w-full h-full object-cover"
+            ></video>
             <div className="hidden z-20 absolute left-0 bottom-0 md:flex h-20 w-full bg-black-gradient-bottom"></div>
           </div>
         </div>

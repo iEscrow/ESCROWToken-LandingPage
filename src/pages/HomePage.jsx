@@ -5,7 +5,6 @@ import PriceAppreciation from "../sections/PriceAppreciation";
 import SecurityAudits from "../sections/SecurityAudits";
 import Header from "../components/Header";
 import Exchange from "../sections/Exchange";
-import video from "../assets/video.png";
 import Community from "../sections/Community";
 
 export default function HomePage() {
@@ -23,7 +22,6 @@ export default function HomePage() {
         <PriceAppreciation t={t} />
         <SecurityAudits t={t} />
         <Exchange t={t} />
-        <img src={video} alt="exchange video" className="w-full md:mt-32" />
         <Community t={t} />
       </main>
     </>
