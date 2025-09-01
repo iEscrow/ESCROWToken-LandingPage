@@ -6,6 +6,7 @@ import SecurityAudits from "../sections/SecurityAudits";
 import Header from "../components/Header";
 import Exchange from "../sections/Exchange";
 import Community from "../sections/Community";
+import Footer from "../components/Footer";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -24,6 +25,7 @@ export default function HomePage() {
         <Exchange t={t} />
         <Community t={t} />
       </main>
+      <Footer />
     </>
   );
 }
