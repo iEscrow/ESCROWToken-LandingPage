@@ -16,7 +16,7 @@ export default function Bento() {
       <div className="w-full mt-10 py-4 bg-no-repeat bg-cover bg-center bg-[url('/images/bento_bg.png')] lg:py-32">
         <div className="w-full p-4 container mx-auto grid grid-cols-1 md:grid-cols-5 md:grid-rows-3 gap-4 xl:max-w-[1300px]">
           <BentoCard extraclases="col-span-1 md:col-span-3 ">
-            <h3 className="text-2xl font-semibold text-text-primary">
+            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl 2xl:text-5xl">
               Locked Staking
             </h3>
             <p className="text-base leading-9 max-w-[400px]">
@@ -27,7 +27,7 @@ export default function Bento() {
           </BentoCard>
 
           <BentoCard extraclases="col-span-1 md:col-span-2 " active>
-            <h3 className="text-2xl font-semibold text-text-primary">
+            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl 2xl:text-5xl">
               Locked Staking
             </h3>
             <p className="text-base leading-9">
@@ -38,7 +38,7 @@ export default function Bento() {
           </BentoCard>
 
           <BentoCard extraclases="col-span-1 md:col-span-2 ">
-            <h3 className="text-2xl font-semibold text-text-primary">
+            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl 2xl:text-5xl">
               Locked Staking
             </h3>
             <p className="text-base leading-9">
@@ -49,7 +49,7 @@ export default function Bento() {
           </BentoCard>
 
           <BentoCard extraclases="col-span-1 md:col-span-3">
-            <h3 className="text-2xl font-semibold text-text-primary">
+            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl 2xl:text-5xl">
               Locked Staking
             </h3>
             <p className="text-base leading-9">
@@ -60,13 +60,15 @@ export default function Bento() {
           </BentoCard>
 
           <BentoCard extraclases="col-span-1 md:col-span-5 ">
-            <h3 className="text-2xl font-semibold text-text-primary">
+            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl 2xl:text-5xl">
               Locked Staking
             </h3>
             <p className="text-base leading-9 max-w-[400px] xl:max-w-[600px]">
               With this type of staking, holders tend to lock in value for
               longer periods of time, resulting in better price action and
-              greater yield.
+              greater yield this type of staking, holders tend to lock in
+              value for longer periods of time, resulting in better price action
+              and greater yield.
             </p>
             <img
               src={Rocket}
