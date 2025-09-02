@@ -1,5 +1,9 @@
 {
-  "Navbar": {},
+  "Navbar": {
+    "whitepaper": "whitepaper",
+    "staking": "staking",
+    "presale": "Presale"
+  },
   "Home": {
     "Banner": {
       "title": "<0>iEscrow P2P混合型CEX/DEX加密货币交易所</0>的实用代币",

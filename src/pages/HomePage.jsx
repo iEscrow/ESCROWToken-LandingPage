@@ -16,7 +16,7 @@ export default function HomePage() {
     <>
       <title>Escrow Landing Page</title>
       <meta name="description" content="escrow landing page" />
-      <Navbar />
+      <Navbar t={t} />
       <main>
         <HomeBanner t={t} />
         <Presale t={t} />

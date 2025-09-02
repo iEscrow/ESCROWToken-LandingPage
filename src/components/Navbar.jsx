@@ -2,7 +2,7 @@ import Logo from "../assets/images/logo.svg";
 import { useEffect, useRef, useState } from "react";
 import LangSelector from "../features/i18n/components/LangSelector";
 
-export default function Navbar() {
+export default function Navbar({ t }) {
   const [isOpen, setIsOpen] = useState(false);
   const dialogRef = useRef(null);
 
@@ -36,18 +36,20 @@ export default function Navbar() {
             <img
               src={Logo}
               alt="iescrow logo"
+              draggable="false"
+              loading="eager"
               className="w-20 md:w-24 lg:w-32"
             />
           </a>
           <ul className="hidden lg:flex lg:items-center lg:justify-end lg:gap-x-6 lg:w-full">
             <li>
               <a href="#whitepaper" className="hover:text-text-primary">
-                whitepaper
+                {t("Navbar.whitepaper")}
               </a>
             </li>
             <li>
               <a href="#staking" className="hover:text-text-primary">
-                staking
+                {t("Navbar.staking")}
               </a>
             </li>
             <li>
@@ -58,7 +60,7 @@ export default function Navbar() {
                 href="#"
                 className="w-full max-w-[300px] text-text-primary font-semibold border-2 border-primary bg-primary px-12 py-2 rounded-full uppercase text-center lg:max-w-[180px] hover:border-primary-hover hover:bg-primary-hover focus:bg-primary-active focus:border-primary-active transition-colors duration-300"
               >
-                Presale
+                {t("Navbar.presale")}
               </a>
             </li>
           </ul>
@@ -103,7 +105,12 @@ export default function Navbar() {
             <div className="flex items-center justify-between">
               <div className="w-full flex justify-between">
                 <a href="#">
-                  <img src={Logo} alt="iescrow logo" />
+                  <img
+                    src={Logo}
+                    alt="iescrow logo"
+                    loading="eager"
+                    draggable="false"
+                  />
                 </a>
 
                 <button
@@ -134,10 +141,10 @@ export default function Navbar() {
 
             <ul className="mt-20 text-text-secondary flex flex-col items-center gap-12">
               <li onClick={closeMenu}>
-                <a href="#whitepaper">whitepaper</a>
+                <a href="#whitepaper">{t("Navbar.whitepaper")}</a>
               </li>
               <li onClick={closeMenu}>
-                <a href="#staking">staking</a>
+                <a href="#staking">{t("Navbar.staking")}</a>
               </li>
               <li>
                 <LangSelector handleChange={closeMenu} />
@@ -147,7 +154,7 @@ export default function Navbar() {
                   href="#"
                   className="w-full max-w-[300px] text-text-primary font-semibold border-2 border-primary bg-primary px-6 py-2 rounded-full uppercase text-center lg:max-w-[180px] hover:border-primary-hover hover:bg-primary-hover focus:bg-primary-active focus:border-primary-active transition-colors duration-300"
                 >
-                  Presale
+                  {t("Navbar.presale")}
                 </a>
               </li>
             </ul>

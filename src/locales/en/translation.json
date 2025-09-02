@@ -1,5 +1,9 @@
 {
-  "Navbar": {},
+  "Navbar": {
+    "whitepaper": "whitepaper",
+    "staking": "staking",
+    "presale": "Presale"
+  },
   "Home": {
     "Banner": {
       "title": "The utility token of the <0>iEscrow P2P Hybrid CEX/DEX Crypto Exchange</0>",
