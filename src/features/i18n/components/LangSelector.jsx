@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import useClickOutside from "../../../../lib/hooks/useClickOutside";
-import LanguageList from "../../../../lib/data/languages.json";
+import useClickOutside from "../../../lib/hooks/useClickOutside";
+import LanguageList from "../../../lib/data/languages.json";
 
 export default function LangSelector({ handleChange }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +25,7 @@ export default function LangSelector({ handleChange }) {
         aria-label="Seleccionar idioma"
         aria-expanded={isOpen}
         aria-controls="language-menu"
-        className="p-2 rounded-full transition cursor-pointer"
+        className="p-2 rounded-full transition cursor-pointer flex items-center gap-2 uppercase"
       >
         <svg
           width="33"
@@ -51,6 +51,7 @@ export default function LangSelector({ handleChange }) {
             </clipPath>
           </defs>
         </svg>
+        {i18n.language}
       </button>
 
       {isOpen && (
@@ -70,7 +71,11 @@ export default function LangSelector({ handleChange }) {
                   changeLanguage(lang.value);
                 }
               }}
-              className="px-4 py-2 text-text-secondary hover:bg-card-bg focus:bg-card-border cursor-pointer transition"
+              className={`px-4 py-2 hover:bg-card-bg focus:bg-card-border cursor-pointer transition ${
+                lang.value == i18n.language
+                  ? "text-primary"
+                  : "text-text-secondary"
+              }`}
             >
               {lang.label}
             </li>

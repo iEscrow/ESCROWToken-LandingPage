@@ -1,4 +1,5 @@
 import Logo from "../assets/images/logo.svg";
+import LangFooterSelector from "../features/i18n/components/LangFooterSelector";
 import FooterDropdown from "./ui/FooterDropdown";
 import SocialButton from "./ui/SocialButton";
 
@@ -92,7 +93,7 @@ export default function Footer({ t }) {
 
             <div className="w-full lg:w-auto">
               <span className="text-primary uppercase font-semibold">
-                Community
+                {t("Footer.community")}
               </span>
               <div className="flex items-start justify-start gap-7 flex-wrap max-w-[160px] mt-4">
                 <SocialButton
@@ -138,16 +139,18 @@ export default function Footer({ t }) {
 
         <div className="w-full text-center flex flex-col-reverse items-center border-t-[1px] border-card-border py-4 lg:flex-row lg:w-full lg:justify-between">
           <p className="text-primary mt-6 lg:mt-0 lg:w-full lg:text-start">
-            &copy; 2025 iEscrow.crypto Derechos Reservados
+            &copy; 2025 {t("Footer.copyright")}
           </p>
 
           <ul className="w-full flex flex-col items-center gap-2 text-text-secondary sm:flex-row sm:justify-center lg:justify-end lg:gap-8">
-            <li>Español</li>
             <li>
-              <a href="#">Protocol disclaimer</a>
+              <LangFooterSelector />
             </li>
             <li>
-              <a href="#">Privacy Policy</a>
+              <a href="#">{t("Footer.protocol")}</a>
+            </li>
+            <li>
+              <a href="#">{t("Footer.privacy")}</a>
             </li>
           </ul>
         </div>

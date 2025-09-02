@@ -1,8 +1,8 @@
 import Logo from "../assets/images/logo.svg";
 import { useEffect, useRef, useState } from "react";
-import LangSelector from "../features/i18n/components/langSelector/LangSelector";
+import LangSelector from "../features/i18n/components/LangSelector";
 
-export default function Header() {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const dialogRef = useRef(null);
 

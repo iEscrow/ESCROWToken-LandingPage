@@ -3,7 +3,7 @@ import HomeBanner from "../components/HomeBanner";
 import Presale from "../components/Presale";
 import PriceAppreciation from "../components/PriceAppreciation";
 import SecurityAudits from "../components/SecurityAudits";
-import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 import Exchange from "../components/Exchange";
 import Community from "../components/Community";
 import Footer from "../components/Footer";
@@ -16,7 +16,7 @@ export default function HomePage() {
     <>
       <title>Escrow Landing Page</title>
       <meta name="description" content="escrow landing page" />
-      <Header />
+      <Navbar />
       <main>
         <HomeBanner t={t} />
         <Presale t={t} />
