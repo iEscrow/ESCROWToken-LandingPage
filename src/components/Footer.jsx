@@ -91,7 +91,7 @@ export default function Footer({ t }) {
             <FooterDropdown title={services.title} list={services.items} />
             <FooterDropdown title={support.title} list={support.items} />
 
-            <div className="w-full lg:w-auto">
+            <div className="w-full md:w-auto">
               <span className="text-primary uppercase font-semibold">
                 {t("Footer.community")}
               </span>
@@ -138,7 +138,7 @@ export default function Footer({ t }) {
         </div>
 
         <div className="w-full text-center flex flex-col-reverse items-center border-t-[1px] border-card-border py-4 lg:flex-row lg:w-full lg:justify-between">
-          <p className="text-primary mt-6 lg:mt-0 lg:w-full lg:text-start">
+          <p className="text-primary text-sm mt-6 lg:mt-0 lg:w-full lg:text-start">
             &copy; 2025 {t("Footer.copyright")}
           </p>
 
@@ -147,10 +147,14 @@ export default function Footer({ t }) {
               <LangFooterSelector />
             </li>
             <li>
-              <a href="#">{t("Footer.protocol")}</a>
+              <a href="#" className="text-sm hover:text-primary">
+                {t("Footer.protocol")}
+              </a>
             </li>
             <li>
-              <a href="#">{t("Footer.privacy")}</a>
+              <a href="#" className="text-sm hover:text-primary">
+                {t("Footer.privacy")}
+              </a>
             </li>
           </ul>
         </div>

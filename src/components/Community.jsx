@@ -60,20 +60,14 @@ export default function Community({ t }) {
             <a
               href="https://t.me/+HByTVekbjfJiMzdh"
               target="_blank"
-              className="text-primary underline hover:text-primary-hover font-semibold"
+              className="text-primary underline hover:text-primary-hover"
               aria-label="Contact us"
-            />,
-            <a
-              href="https://t.me/+HByTVekbjfJiMzdh"
-              target="_blank"
-              className="text-primary underline hover:text-primary-hover font-semibold"
-              aria-label="Join our community"
             />,
           ]}
         />
       </p>
 
-      <div className="flex justify-center gap-12">
+      <div className="flex justify-center gap-12 flex-wrap max-w-[300px] mx-auto md:max-w-full">
         <SocialButton
           href="https://www.facebook.com/profile.php?id=61580173739629"
           title="Facebook"
