@@ -6,7 +6,7 @@ export default function Presale({ t }) {
     <section id="presale" className="relative text-text-primary my-32">
       <div className="flex flex-col items-center gap-8 md:items-start md:container md:mx-auto md:justify-center md:h-[344px] lg:h-[540px] xl:h-[620px] 2xl:h-[700px]">
         <div className="flex flex-col items-center text-center p-4 gap-8 md:text-start md:items-start  lg:gap-12">
-          <h2 className="gradient-text text-xl font-bold sm:text-2xl md:text-3xl lg:text-[55px]">
+          <h2 className="gradient-text text-xl font-bold sm:text-2xl md:text-3xl lg:text-[55px] lg:max-w-[520px] lg:leading-14">
             {t("Home.Presale.title")}
           </h2>
 
