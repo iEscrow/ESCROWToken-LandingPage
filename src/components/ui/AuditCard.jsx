@@ -40,8 +40,10 @@ export default function AuditCard({
       </p>
       <a
         href="#"
-        className={`w-full font-bold py-2 rounded-full mt-10 lg:mt-16 ${
-          variant === "primary" ? "bg-primary" : " bg-tertiary"
+        className={`w-full font-bold py-2 rounded-full mt-10 transition-colors duration-200 lg:mt-16 ${
+          variant === "primary"
+            ? "bg-primary hover:bg-primary-hover active:bg-primary-active"
+            : " bg-tertiary hover:bg-tertiary-hover active:bg-tertiary-active"
         }`}
       >
         {cta}

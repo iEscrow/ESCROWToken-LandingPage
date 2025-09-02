@@ -25,7 +25,7 @@ export default function AppreciationCard({ label, title, description, image }) {
       <img
         src={image}
         alt={title}
-        className="mt-32 md:m-0 w-full md:max-w-[260px] md:mt-0 lg:max-w-[360px] 2xl:max-w-[469px]"
+        className="mt-32 md:m-0 w-full md:max-w-[260px] md:mt-0 lg:max-w-[360px] xl:max-w-[440px] 2xl:max-w-[469px]"
         draggable={false}
         loading="lazzy"
       />

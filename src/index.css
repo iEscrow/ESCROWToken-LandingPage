@@ -79,7 +79,10 @@
   --color-primary-active: #2192bb;
 
   --color-secondary: #30c2e2;
+
   --color-tertiary: #e020f1;
+  --color-tertiary-hover: #ab1bb8;
+  --color-tertiary-active: #e634f7;
 
   --color-card-bg: #3c3c3c;
   --color-card-border: #333333;
