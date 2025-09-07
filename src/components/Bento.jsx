@@ -17,7 +17,7 @@ export default function Bento({ t }) {
       <div className="w-full py-4 bg-no-repeat bg-cover bg-center bg-[url('/images/bento_bg.png')] lg:py-32">
         <div className="w-full p-4 container mx-auto grid grid-cols-1 md:grid-cols-5 md:grid-rows-3 gap-4 xl:max-w-[1300px]">
           <BentoCard extraclases="col-span-1 md:col-span-3 ">
-            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl 2xl:text-5xl">
+            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl ">
               {t("Home.Bento.cards.1.title")}
             </h3>
             <p className="text-base leading-9 max-w-[400px]">
@@ -26,7 +26,7 @@ export default function Bento({ t }) {
           </BentoCard>
 
           <BentoCard extraclases="col-span-1 md:col-span-2 " active>
-            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl 2xl:text-5xl">
+            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl ">
               {t("Home.Bento.cards.2.title")}
             </h3>
             <p className="text-base leading-9">
@@ -35,7 +35,7 @@ export default function Bento({ t }) {
           </BentoCard>
 
           <BentoCard extraclases="col-span-1 md:col-span-2 ">
-            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl 2xl:text-5xl">
+            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl ">
               {t("Home.Bento.cards.3.title")}
             </h3>
             <p className="text-base leading-9">
@@ -44,7 +44,7 @@ export default function Bento({ t }) {
           </BentoCard>
 
           <BentoCard extraclases="col-span-1 md:col-span-3">
-            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl 2xl:text-5xl">
+            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl ">
               {t("Home.Bento.cards.4.title")}
             </h3>
             <p className="text-base leading-9">
@@ -53,7 +53,7 @@ export default function Bento({ t }) {
           </BentoCard>
 
           <BentoCard extraclases="col-span-1 md:col-span-5 ">
-            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl 2xl:text-5xl">
+            <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl ">
               {t("Home.Bento.cards.5.title")}
             </h3>
             <p className="text-base leading-9 max-w-[400px] xl:max-w-[600px]">

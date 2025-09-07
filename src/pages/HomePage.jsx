@@ -15,7 +15,7 @@ export default function HomePage() {
   const { t } = useTranslation();
   const [openWhitepaper, setOpenWhitepaper] = useState(false);
   const pdfUrl =
-    "https://cors-anywhere.herokuapp.com/http://www.pdf995.com/samples/pdf.pdf";
+    "/witepapper.pdf";
 
   const handleOpenWhitepaper = () => {
     setOpenWhitepaper(true);
@@ -26,8 +26,9 @@ export default function HomePage() {
   };
   return (
     <>
-      <title>Escrow Landing Page</title>
-      <meta name="description" content="escrow landing page" />
+      <title>{t("Metadata.title")}</title>
+      <meta name="description" content={t("Metadata.description")} />
+      
       <Navbar t={t} handleOpenWhitepaper={handleOpenWhitepaper} />
       <main>
         <WhitepaperViewer

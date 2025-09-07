@@ -1,4 +1,8 @@
 {
+  "Metadata": {
+    "title": "$Escrow – Hybrid CEX/DEX Crypto Token | Secure & Staking",
+    "description": "Discover iEscrow’s $ESCROW token powering a hybrid CEX/DEX crypto exchange with decentralized escrow, 25% fee burn, staking yield, and 25% fee reduction. Unlock security, deflationary growth, and utility in one powerful crypto ecosystem."
+  },
   "Navbar": {
     "whitepaper": "whitepaper",
     "staking": "staking",
@@ -76,31 +80,32 @@
       "description3": "Additionally, 25% of all $Escrow fees are burned to lower the supply."
     },
     "Bento": {
-      "title": "Engineered for Sustained <0>Price Appreciation</0>",
-      "description": "Limited presale, deflationary mechanics, and strategic tokenomics drive value for early investors.",
+      "title": "All-in-One <0>Crypto Ecosystem</0>",
+      "description": "iEscrow combines the best of CEX and DEX with security, yield, and real user freedom — all in one powerful platform.",
       "cards": {
         "1": {
-          "title": "Locked staking",
-          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+          "title": "Hybrid CEX/DEX Exchange",
+          "description": "Experience the liquidity and speed of centralized exchanges with the trustless security of decentralized escrow."
         },
         "2": {
-          "title": "Locked staking",
-          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+          "title": "Decentralized Escrow Layer",
+          "description": "Trade securely with anyone worldwide — known or unknown — through our transparent on-chain escrow system."
         },
         "3": {
-          "title": "Locked staking",
-          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+          "title": "Yield Through Staking",
+          "description": "Lock your $ESCROW tokens to earn attractive yields and benefit from our deflationary tokenomics."
         },
         "4": {
-          "title": "Locked staking",
-          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+          "title": "25% Fee Reduction",
+          "description": "Use $ESCROW on iEscrow to instantly reduce exchange fees by 25%, rewarding active traders and holders alike."
         },
         "5": {
-          "title": "Locked staking",
-          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+          "title": "Deflationary Token Model",
+          "description": "25% of all fees are burned, reducing supply and supporting long-term price appreciation for all holders."
         }
       }
     },
+
     "Community": {
       "title": "Our Community",
       "comments": {

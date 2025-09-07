@@ -1,4 +1,8 @@
 {
+  "Metadata": {
+    "title": "$Escrow – 混合型 CEX/DEX 加密代币 | 安全与质押",
+    "description": "探索 iEscrow 的 $ESCROW 代币，为混合型 CEX/DEX 加密交易所提供动力，具备去中心化托管、25% 手续费销毁、质押收益和 25% 手续费减免。在一个强大的加密生态系统中解锁安全、通缩增长和实用性。"
+  },
   "Navbar": {
     "whitepaper": "白皮书",
     "staking": "质押",
@@ -76,28 +80,28 @@
       "description3": "此外，所有$Escrow费用的25%将被销毁以减少供应量。"
     },
     "Bento": {
-      "title": "Engineered for Sustained <0>Price Appreciation</0>",
-      "description": "Limited presale, deflationary mechanics, and strategic tokenomics drive value for early investors.",
+      "title": "一体化<0>加密生态系统</0>",
+      "description": "iEscrow 将 CEX 的流动性与 DEX 的去信任安全性结合在一起，提供安全、收益与用户真正的自由——一切尽在同一个强大的平台中。",
       "cards": {
         "1": {
-          "title": "Locked staking",
-          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+          "title": "混合型 CEX/DEX 交易所",
+          "description": "享受中心化交易所的流动性和速度，同时拥有去中心化托管的无中介安全。"
         },
         "2": {
-          "title": "Locked staking",
-          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+          "title": "去中心化托管层",
+          "description": "通过我们透明的链上托管系统，与世界各地的任何人——无论熟悉与否——安全交易。"
         },
         "3": {
-          "title": "Locked staking",
-          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+          "title": "质押收益",
+          "description": "锁定你的 $ESCROW 代币以赚取可观的收益，并从我们的通缩型代币经济模型中受益。"
         },
         "4": {
-          "title": "Locked staking",
-          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+          "title": "25% 手续费减免",
+          "description": "在 iEscrow 中使用 $ESCROW，可立即降低 25% 的交易手续费，奖励活跃交易者与长期持有者。"
         },
         "5": {
-          "title": "Locked staking",
-          "description": "With this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield this type of staking, holders tend to lock in value for longer periods of time, resulting in better price action and greater yield."
+          "title": "通缩代币模型",
+          "description": "所有手续费的 25% 将被销毁，减少供应，支持所有持有者的长期价格增长。"
         }
       }
     },
