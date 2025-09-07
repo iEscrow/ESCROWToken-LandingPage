@@ -1,15 +1,20 @@
 import { Trans } from "react-i18next";
-import { Carousel, CarouselContent, CarouselDots, CarouselItem } from "./ui/Carousel";
-import { communityComments } from "../lib/data/communityComments";
-import CommentCard from "./ui/CommentCard";
-import Decoration from "../assets/images/community.png";
+// import {
+//   Carousel,
+//   CarouselContent,
+//   CarouselDots,
+//   CarouselItem,
+// } from "./ui/Carousel";
+// import { communityComments } from "../lib/data/communityComments";
+// import CommentCard from "./ui/CommentCard";
+// import Decoration from "../assets/images/community.png";
 import SocialButton from "./ui/SocialButton";
 
 export default function Community({ t }) {
   return (
     <section
       id="community"
-      className="relative container mx-auto text-center my-16 md:my-24 lg:my-32"
+      className="relative container mx-auto text-center my-16 md:my-24 lg:my-40"
       aria-labelledby="community-title"
     >
       <h2
@@ -19,7 +24,7 @@ export default function Community({ t }) {
         {t("Home.Community.title")}
       </h2>
 
-      <div className="relative mt-10 md:mt-12 lg:mt-16 max-w-4xl mx-auto">
+      {/* <div className="relative mt-10 md:mt-12 lg:mt-16 max-w-4xl mx-auto">
         <Carousel aria-label="Community testimonials">
           <CarouselContent>
             {communityComments.map((commentPair, index) => (
@@ -49,9 +54,9 @@ export default function Community({ t }) {
           loading="lazy"
           className="w-full absolute bottom-0 left-1/2 -translate-x-1/2 -z-10"
         />
-      </div>
+      </div> */}
 
-      <p className="text-text-secondary my-6 lg:mt-10 lg:mb-16">
+      <p className="text-text-secondary my-6 lg:mt-20 lg:mb-16">
         <Trans
           i18nKey="Home.Community.cta"
           components={[
