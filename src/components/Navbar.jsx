@@ -2,7 +2,7 @@ import Logo from "../assets/images/logo.svg";
 import { useEffect, useRef, useState } from "react";
 import LangSelector from "../features/i18n/components/LangSelector";
 
-export default function Navbar({ t }) {
+export default function Navbar({ t, handleOpenWhitepaper }) {
   const [isOpen, setIsOpen] = useState(false);
   const dialogRef = useRef(null);
 
@@ -43,9 +43,12 @@ export default function Navbar({ t }) {
           </a>
           <ul className="hidden lg:flex lg:items-center lg:justify-end lg:gap-x-6 lg:w-full">
             <li>
-              <a href="#whitepaper" className="hover:text-text-primary">
+              <button
+                onClick={handleOpenWhitepaper}
+                className="hover:text-text-primary"
+              >
                 {t("Navbar.whitepaper")}
-              </a>
+              </button>
             </li>
             <li>
               <a href="#staking" className="hover:text-text-primary">
@@ -141,7 +144,9 @@ export default function Navbar({ t }) {
 
             <ul className="mt-20 text-text-secondary flex flex-col items-center gap-12">
               <li onClick={closeMenu}>
-                <a href="#whitepaper">{t("Navbar.whitepaper")}</a>
+                <button onClick={handleOpenWhitepaper}>
+                  {t("Navbar.whitepaper")}
+                </button>
               </li>
               <li onClick={closeMenu}>
                 <a href="#staking">{t("Navbar.staking")}</a>

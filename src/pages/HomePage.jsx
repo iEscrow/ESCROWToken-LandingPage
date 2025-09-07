@@ -8,17 +8,34 @@ import Exchange from "../components/Exchange";
 import Community from "../components/Community";
 import Footer from "../components/Footer";
 import Bento from "../components/Bento";
+import WhitepaperViewer from "../components/WhitepaperViewer";
+import { useState } from "react";
 
 export default function HomePage() {
   const { t } = useTranslation();
+  const [openWhitepaper, setOpenWhitepaper] = useState(false);
+  const pdfUrl =
+    "https://cors-anywhere.herokuapp.com/http://www.pdf995.com/samples/pdf.pdf";
 
+  const handleOpenWhitepaper = () => {
+    setOpenWhitepaper(true);
+  };
+
+  const handleCloseWhitepaper = () => {
+    setOpenWhitepaper(false);
+  };
   return (
     <>
       <title>Escrow Landing Page</title>
       <meta name="description" content="escrow landing page" />
-      <Navbar t={t} />
+      <Navbar t={t} handleOpenWhitepaper={handleOpenWhitepaper} />
       <main>
-        <HomeBanner t={t} />
+        <WhitepaperViewer
+          open={openWhitepaper}
+          onClose={handleCloseWhitepaper}
+          pdfUrl={pdfUrl}
+        />
+        <HomeBanner t={t} handleOpenWhitepaper={handleOpenWhitepaper} />
         <Presale t={t} />
         <PriceAppreciation t={t} />
         <SecurityAudits t={t} />
