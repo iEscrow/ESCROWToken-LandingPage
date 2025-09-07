@@ -18,22 +18,22 @@ export default function PriceAppreciation({ t }) {
   useEffect(() => {
     const mm = gsap.matchMedia();
 
-    mm.add("(min-width: 768px)", () => {
+    const createTimeline = ({ isMobile }) => {
       const cards = cardsRef.current;
 
       gsap.set(cards.slice(1), {
-        y: "100%",
+        y: isMobile ? "50%" : "100%", // menos desplazamiento en mobile
         autoAlpha: 0,
-        scale: 0.8,
+        scale: isMobile ? 0.95 : 0.8, // escala inicial más sutil en mobile
       });
 
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: containerRef.current,
-          pin: ".cards-container",
+          pin: ".cards-container", // 🔹 hace que el contenedor quede fijo
           pinType: "fixed",
-          start: "top -33%",
-          end: `+=${cards.length * 820}`,
+          start: isMobile ? "top top" : "top -33%",
+          end: `+=${cards.length * (isMobile ? 600 : 820)}`, // menos scroll en mobile
           scrub: true,
           markers: false,
         },
@@ -58,7 +58,7 @@ export default function PriceAppreciation({ t }) {
         if (!isLastCard) {
           tl.to(card, {
             autoAlpha: 0,
-            scale: 0.8,
+            scale: isMobile ? 0.95 : 0.8,
             duration: 1.5,
             ease: "power2.inOut",
             transformOrigin: "center center",
@@ -66,13 +66,17 @@ export default function PriceAppreciation({ t }) {
         }
       });
 
-      return () => {
-        ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-      };
+      return tl;
+    };
+
+    mm.add("(min-width: 768px)", () => {
+      createTimeline({ isMobile: false });
+      return () => ScrollTrigger.getAll().forEach((t) => t.kill());
     });
 
     mm.add("(max-width: 767px)", () => {
-      gsap.set(cardsRef.current, { clearProps: "all" });
+      createTimeline({ isMobile: true }); // 🔹 mobile ahora también tiene pin + animación
+      return () => ScrollTrigger.getAll().forEach((t) => t.kill());
     });
 
     return () => mm.revert();
@@ -126,14 +130,15 @@ export default function PriceAppreciation({ t }) {
         {t("Home.PriceAppreciation.description")}
       </p>
 
-      <div className="cards-container relative w-full h-screen ">
+      <div className="cards-container relative w-full min-h-screen ">
         {cards.map((card, index) => (
           <div
             key={index}
             ref={(el) => (cardsRef.current[index] = el)}
-            className={`panel panel-${
-              index + 1
-            } w-full max-w-[1490px] absolute inset-0 flex items-center justify-center my-4`}
+            className={`
+            panel panel-${index + 1}
+            w-full max-w-[1490px] inset-0 absolute md:inset-0  md:my-0 my-4 flex items-center justify-center
+          `}
             style={{ zIndex: 10 + index }}
           >
             <div className="card-wrapper w-full max-w-[1440px] lg:mb-5">
