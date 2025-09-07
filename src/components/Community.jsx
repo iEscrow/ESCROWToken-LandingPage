@@ -1,5 +1,5 @@
 import { Trans } from "react-i18next";
-import { Carousel, CarouselContent, CarouselItem } from "./ui/Carousel";
+import { Carousel, CarouselContent, CarouselDots, CarouselItem } from "./ui/Carousel";
 import { communityComments } from "../lib/data/communityComments";
 import CommentCard from "./ui/CommentCard";
 import Decoration from "../assets/images/community.png";
@@ -38,9 +38,7 @@ export default function Community({ t }) {
             ))}
           </CarouselContent>
           <div className="h-20 flex justify-center items-center gap-3">
-            <div className="h-3 w-3 rounded-full bg-gray-400"></div>
-            <div className="h-5 w-5 rounded-full bg-secondary"></div>
-            <div className="h-3 w-3 rounded-full bg-gray-400"></div>
+            <CarouselDots />
           </div>
         </Carousel>
 

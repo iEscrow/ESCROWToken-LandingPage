@@ -21,7 +21,7 @@ const Carousel = React.forwardRef(
       orientation = "horizontal",
       opts,
       setApi,
-      plugins = [], // Valor por defecto para plugins
+      plugins = [],
       className,
       children,
       ...props
@@ -32,17 +32,20 @@ const Carousel = React.forwardRef(
       {
         ...opts,
         axis: orientation === "horizontal" ? "x" : "y",
-        loop: true, // Bucle infinito
+        loop: true,
       },
-      [Autoplay({ delay: 3000 }), ...plugins] // Agrega Autoplay con un retraso de 3 segundos
+      [Autoplay({ delay: 3000 }), ...plugins]
     );
     const [canScrollPrev, setCanScrollPrev] = useState(false);
     const [canScrollNext, setCanScrollNext] = useState(false);
+    const [selectedIndex, setSelectedIndex] = useState(0); // Estado para el slide activo
+    const [slideCount, setSlideCount] = useState(0); // Estado para el número de slides
 
     const onSelect = useCallback((api) => {
       if (!api) return;
       setCanScrollPrev(api.canScrollPrev());
       setCanScrollNext(api.canScrollNext());
+      setSelectedIndex(api.selectedScrollSnap()); // Actualiza el índice activo
     }, []);
 
     const scrollPrev = useCallback(() => {
@@ -73,6 +76,7 @@ const Carousel = React.forwardRef(
 
     useEffect(() => {
       if (!api) return;
+      setSlideCount(api.scrollSnapList().length); // Obtiene el número de slides
       onSelect(api);
       api.on("reInit", onSelect);
       api.on("select", onSelect);
@@ -93,6 +97,8 @@ const Carousel = React.forwardRef(
           scrollNext,
           canScrollPrev,
           canScrollNext,
+          selectedIndex, // Añadimos el índice activo
+          slideCount, // Añadimos el conteo de slides
         }}
       >
         <div
@@ -149,4 +155,37 @@ const CarouselItem = React.forwardRef(({ className, ...props }, ref) => {
 });
 CarouselItem.displayName = "CarouselItem";
 
-export { Carousel, CarouselContent, CarouselItem };
+const CarouselDots = React.forwardRef(({ className, ...props }, ref) => {
+  const { selectedIndex, slideCount, api } = useCarousel();
+
+  const handleDotClick = (index) => {
+    if (api) {
+      api.scrollTo(index);
+    }
+  };
+
+  return (
+    <div
+      ref={ref}
+      className={clsx("flex justify-center gap-3 mt-4", className)}
+      {...props}
+    >
+      {Array.from({ length: slideCount }).map((_, index) => (
+        <button
+          key={index}
+          onClick={() => handleDotClick(index)}
+          className={clsx(
+            "w-3 h-3 rounded-full transition-all duration-300",
+            selectedIndex === index
+              ? "bg-primary scale-125"
+              : "bg-text-secondary/40 hover:bg-text-secondary"
+          )}
+          aria-label={`Go to slide ${index + 1}`}
+        />
+      ))}
+    </div>
+  );
+});
+CarouselDots.displayName = "CarouselDots";
+
+export { Carousel, CarouselContent, CarouselItem, CarouselDots };
