@@ -1,7 +1,7 @@
 import { Trans } from "react-i18next";
-import Mobile from "../assets/images/exchange/mobile_exchange.png";
-import Left from "../assets/images/exchange/desktop_left_exchange.png";
-import Right from "../assets/images/exchange/desktop_right_exchange.png";
+import Mobile from "../assets/images/exchange/mobile_exchange.webp";
+import Left from "../assets/images/exchange/desktop_left_exchange.webp";
+import Right from "../assets/images/exchange/desktop_right_exchange.webp";
 
 export default function Exchange({ t }) {
   return (

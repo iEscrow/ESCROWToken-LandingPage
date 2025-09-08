@@ -7,14 +7,14 @@ import { Trans } from "react-i18next";
 // } from "./ui/Carousel";
 // import { communityComments } from "../lib/data/communityComments";
 // import CommentCard from "./ui/CommentCard";
-// import Decoration from "../assets/images/community.png";
+// import Decoration from "../assets/images/community.webp";
 import SocialButton from "./ui/SocialButton";
 
 export default function Community({ t }) {
   return (
     <section
       id="community"
-      className="relative container mx-auto text-center my-16 md:my-24 lg:my-40"
+      className="relative container mx-auto p-4 text-center my-16 md:my-24 lg:my-40"
       aria-labelledby="community-title"
     >
       <h2
@@ -23,8 +23,8 @@ export default function Community({ t }) {
       >
         {t("Home.Community.title")}
       </h2>
-
-      {/* <div className="relative mt-10 md:mt-12 lg:mt-16 max-w-4xl mx-auto">
+      {/* 
+      <div className="relative mt-10 md:mt-12 lg:mt-16 max-w-4xl mx-auto">
         <Carousel aria-label="Community testimonials">
           <CarouselContent>
             {communityComments.map((commentPair, index) => (

@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import Logo from "../assets/images/banner/banner_icon.png";
+import Logo from "../assets/images/banner/banner_icon.webp";
 
 export default function Loading() {
   const containerRef = useRef(null);

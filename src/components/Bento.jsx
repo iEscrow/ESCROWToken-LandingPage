@@ -1,5 +1,5 @@
 import BentoCard from "./ui/BentoCard";
-import Rocket from "../assets/images/cards/tokenomics.png";
+import Rocket from "../assets/images/cards/tokenomics.webp";
 import { Trans } from "react-i18next";
 
 export default function Bento({ t }) {
@@ -14,7 +14,7 @@ export default function Bento({ t }) {
         {t("Home.Bento.description")}
       </p>
 
-      <div className="w-full py-4 bg-no-repeat bg-cover bg-center bg-[url('/images/bento_bg.png')] lg:py-32">
+      <div className="w-full py-4 bg-no-repeat bg-cover bg-center bg-[url('/images/bento_bg.webp')] lg:py-32">
         <div className="w-full p-4 container mx-auto grid grid-cols-1 md:grid-cols-5 md:grid-rows-3 gap-4 xl:max-w-[1300px]">
           <BentoCard extraclases="col-span-1 md:col-span-3 ">
             <h3 className="text-2xl font-semibold text-text-primary lg:text-4xl ">

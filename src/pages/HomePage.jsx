@@ -39,7 +39,7 @@ export default function HomePage() {
         <HomeBanner t={t} handleOpenWhitepaper={handleOpenWhitepaper} />
         <Presale t={t} />
         <PriceAppreciation t={t} />
-        <SecurityAudits t={t} />
+        {/* <SecurityAudits t={t} /> */}
         <Exchange t={t} />
         <Bento t={t} />
         <Community t={t} />

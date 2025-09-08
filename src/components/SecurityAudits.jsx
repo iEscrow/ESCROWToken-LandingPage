@@ -1,13 +1,13 @@
 import { Trans } from "react-i18next";
 import AuditCard from "./ui/AuditCard";
-import audit1 from "../assets/images/securityAudits/audit1.png";
-import audit2 from "../assets/images/securityAudits/audit2.png";
+import audit1 from "../assets/images/securityAudits/audit1.webp";
+import audit2 from "../assets/images/securityAudits/audit2.webp";
 
 export default function SecurityAudits({ t }) {
   return (
     <section
       id="audits"
-      className="mt-40 pb-40 w-full text-text-primary text-center p-4 flex flex-col items-center bg-no-repeat bg-bottom bg-[url(/images/bg_audit_desktop.png)] bg-cover md:bg-contain md:bg-center lg:bg-bottom"
+      className="mt-40 pb-40 w-full text-text-primary text-center p-4 flex flex-col items-center bg-no-repeat bg-bottom bg-[url(/images/bg_audit_desktop.webp)] bg-cover md:bg-contain md:bg-center lg:bg-bottom"
     >
       <h2 className="text-text-primary font-semibold text-xl sm:text-2xl md:text-3xl lg:text-5xl">
         <Trans i18nKey="Home.SecurityAudits.title">

@@ -1,9 +1,9 @@
-import bannerImg from "../assets/images/banner/banner_icon.png";
+import bannerImg from "../assets/images/banner/banner_icon.webp";
 import { Trans } from "react-i18next";
 
 export default function HomeBanner({ t }) {
   return (
-    <section className="w-full pb-32 min-h-screen text-text-primary lg:mt-0 bg-[url('/images/banner_bg_mobile.png')] bg-cover bg-bottom bg-no-repeat md:pb-0 md:bg-center md:bg-[url('/images/banner_bg.png')] lg:h-screen">
+    <section className="w-full pb-32 min-h-screen text-text-primary lg:mt-0 bg-[url('/images/banner_bg_mobile.webp')] bg-cover bg-bottom bg-no-repeat md:pb-0 md:bg-center md:bg-[url('/images/banner_bg.webp')] lg:h-screen">
       <div className="container mx-auto h-full flex flex-col items-center justify-center gap-20 p-4 lg:flex-row lg:justify-between">
         <div className="text-center flex flex-col items-center lg:text-left lg:items-start animate-fade-left">
           <h1 className="mt-20 text-xl font-bold max-w-[460px] sm:text-3xl sm:max-w-[500px] lg:text-4xl lg:max-w-[730px] lg:leading-14 lg:mt-0 xl:text-5xl xl:leading-16">

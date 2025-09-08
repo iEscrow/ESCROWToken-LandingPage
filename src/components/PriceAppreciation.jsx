@@ -3,11 +3,11 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import AppreciationCard from "./ui/AppreciationCard";
-import feeBurn from "../assets/images/cards/feeburn.png";
-import locked from "../assets/images/cards/locked.png";
-import deflationary from "../assets/images/cards/deflationary.png";
-import presale from "../assets/images/cards/presale.png";
-import tokenomics from "../assets/images/cards/tokenomics.png";
+import feeBurn from "../assets/images/cards/feeburn.webp";
+import locked from "../assets/images/cards/locked.webp";
+import deflationary from "../assets/images/cards/deflationary.webp";
+import presale from "../assets/images/cards/presale.webp";
+import tokenomics from "../assets/images/cards/tokenomics.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 
