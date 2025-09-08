@@ -4,13 +4,13 @@ import { Trans } from "react-i18next";
 
 export default function Bento({ t }) {
   return (
-    <section className="w-full flex flex-col items-center text-center gap-4 md:mt-20">
+    <section className="w-full flex flex-col items-center text-center gap-4 md:mt-20 xl:mt-0">
       <h2 className="text-text-primary flex flex-col font-semibold text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:leading-16">
         <Trans i18nKey="Home.Bento.title">
           <span className="gradient-text"></span>
         </Trans>
       </h2>
-      <p className="text-text-secondary mb-20 mt-4 max-w-[400px] mx-auto lg:max-w-[520px]">
+      <p className="text-text-secondary mb-20 mt-4 max-w-[400px] mx-auto lg:max-w-[520px] xl:mb-0">
         {t("Home.Bento.description")}
       </p>
 

@@ -14,7 +14,7 @@ export default function Community({ t }) {
   return (
     <section
       id="community"
-      className="relative container mx-auto p-4 text-center my-16 md:my-24 lg:my-40"
+      className="relative container mx-auto p-4 text-center my-16 md:my-24 lg:mb-40"
       aria-labelledby="community-title"
     >
       <h2
