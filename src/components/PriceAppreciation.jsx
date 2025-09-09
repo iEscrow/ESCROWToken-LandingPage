@@ -22,18 +22,18 @@ export default function PriceAppreciation({ t }) {
       const cards = cardsRef.current;
 
       gsap.set(cards.slice(1), {
-        y: isMobile ? "50%" : "100%", // menos desplazamiento en mobile
+        y: isMobile ? "80%" : "100%",
         autoAlpha: 0,
-        scale: isMobile ? 0.95 : 0.8, // escala inicial más sutil en mobile
+        scale: isMobile ? 0.95 : 0.8,
       });
 
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: containerRef.current,
-          pin: ".cards-container", // 🔹 hace que el contenedor quede fijo
+          pin: ".cards-container",
           pinType: "fixed",
-          start: isMobile ? "top top" : "top -33%",
-          end: `+=${cards.length * (isMobile ? 600 : 820)}`, // menos scroll en mobile
+          start: isMobile ? "top -25%" : "top -33%",
+          end: `+=${cards.length * (isMobile ? 600 : 820)}`,
           scrub: true,
           markers: false,
         },

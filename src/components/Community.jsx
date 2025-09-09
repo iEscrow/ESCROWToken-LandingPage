@@ -14,15 +14,15 @@ export default function Community({ t }) {
   return (
     <section
       id="community"
-      className="relative container mx-auto p-4 text-center my-16 md:my-24 lg:mb-40"
+      className="relative container mx-auto p-4 text-center my-16 md:my-24 lg:mb-40 lg:mt-0"
       aria-labelledby="community-title"
     >
-      <h2
+      {/* <h2
         id="community-title"
         className="gradient-text text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold flex justify-center gap-2"
       >
         {t("Home.Community.title")}
-      </h2>
+      </h2> */}
       {/* 
       <div className="relative mt-10 md:mt-12 lg:mt-16 max-w-4xl mx-auto">
         <Carousel aria-label="Community testimonials">

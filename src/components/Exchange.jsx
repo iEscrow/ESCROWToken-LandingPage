@@ -5,7 +5,7 @@ import Right from "../assets/images/exchange/desktop_right_exchange.webp";
 
 export default function Exchange({ t }) {
   return (
-    <section id="exchange" className="relative">
+    <section id="exchange" className="relative mt-32 sm:mt-50 md:mt-0">
       <div className="p-4 text-center flex flex-col items-center gap-16 md:py-32 lg:py-40 xl:py-90">
         <h2 className="text-text-primary flex gap-2 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-5xl">
           <Trans i18nKey="Home.Exchange.title">

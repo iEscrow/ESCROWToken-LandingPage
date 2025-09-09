@@ -4,16 +4,16 @@ import cardBg from "../../assets/images/cards/bg.webp";
 export default function AppreciationCard({ label, title, description, image }) {
   return (
     <div
-      className="text-text-primary bg-card-bg p-8 rounded-2xl flex flex-col items-center justify-between md:flex-row md:p-10 lg:px-20 lg:h-[600px] lg:rounded-3xl bg-bottom bg-no-repeat md:bg-right lg:w-full xl:max-w-[1300px] xl:mx-auto"
+      className="text-text-primary bg-card-bg p-8 rounded-2xl flex flex-col items-center justify-between md:flex-row md:p-10 lg:px-20 lg:h-[600px] lg:rounded-3xl bg-bottom bg-no-repeat md:bg-right lg:w-full xl:max-w-[1300px] xl:mx-auto "
       style={{
         backgroundImage: `url(${cardBg})`,
       }}
     >
-      <div className="md:text-left">
+      <div className="md:text-left lg:aboslute">
         <small className="gradient-text uppercase tracking-[4px] font-medium">
           {label}
         </small>
-        <h3 className="font-semibold text-3xl md:text-3xl lg:text-6xl flex flex-col lg:leading-18">
+        <h3 className="font-semibold text-3xl md:text-3xl lg:text-6xl lg:leading-18">
           <Trans i18nKey={title}>
             <span className="gradient-text"></span>
           </Trans>
