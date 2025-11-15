@@ -10,7 +10,7 @@ export default function Presale({ t }) {
             {t("Home.Presale.title")}
           </h2>
 
-          <CounterDown targetDate="2025-12-31T23:59:59" />
+          <CounterDown targetDate="2025-11-25T11:00:00Z" />
 
           <p className="font-thin text-text-secondary max-w-[400px] md:max-w-[320px] lg:text-2xl lg:max-w-[490px] lg:leading-9">
             {t("Home.Presale.description")}
